@@ -1,0 +1,1705 @@
+Prepared for the National Aeronautics and Space Administration
+
+Geologic Map of Jezero Crater and the Nili Planum
+Region, Mars
+By Vivian Z. Sun and Kathryn M. Stack
+Pamphlet to accompany
+
+Scientific Investigations Map 3464
+
+2020
+
+U.S. Department of the Interior
+U.S. Geological Survey
+
+U.S. Department of the Interior
+DAVID BERNHARDT, Secretary
+U.S. Geological Survey
+James F. Reilly II, Director
+
+U.S. Geological Survey, Reston, Virginia: 2020
+
+For more information on the USGS—the Federal source for science about the Earth, its natural and living
+resources, natural hazards, and the environment—visit https://www.usgs.gov or call 1–888–ASK–USGS.
+For an overview of USGS information products, including maps, imagery, and publications,
+visit https://store.usgs.gov.
+
+Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the
+U.S. Government.
+Although this information product, for the most part, is in the public domain, it also may contain copyrighted materials
+as noted in the text. Permission to reproduce copyrighted items must be secured from the copyright owner.
+
+Suggested citation:
+Sun, V.Z., and Stack, K.M., 2020, Geologic map of Jezero crater and the Nili Planum region, Mars: U.S. Geological Survey
+Scientific Investigations Map 3464, pamphlet 14 p., 1 sheet, scale 1:75,000, https://doi.org/10.3133/sim3464.
+
+ISSN 2932-1311 (print)
+ISSN 2932-132X (online)
+
+Cover. View of the northern part of the map area, highlighting the Jezero crater floor and delta
+deposit in the foreground and Neretva Vallis and the Nili Planum terrains in the background. Jezero
+crater is the anticipated landing site of the Mars 2020 Perseverance rover.
+
+ii
+
+Contents
+Introduction.....................................................................................................................................................1
+Geologic Setting..............................................................................................................................................1
+Previous Maps................................................................................................................................................2
+Base Map and Data. ......................................................................................................................................3
+Methodology. ..................................................................................................................................................4
+Unit Groups, Names, and Labels. .......................................................................................................5
+Contact Types.........................................................................................................................................6
+Mapped Features. .................................................................................................................................6
+Age Determinations. ......................................................................................................................................7
+Geologic Summary.........................................................................................................................................8
+Early to Middle Noachian ....................................................................................................................8
+Late Noachian to Early Hesperian .....................................................................................................9
+Late Hesperian to Late Amazonian. .................................................................................................10
+Conclusions...................................................................................................................................................11
+Acknowledgments........................................................................................................................................12
+References Cited..........................................................................................................................................12
+
+Figures
+1.
+2.
+3.
+
+4.
+5.
+
+6.
+7.
+
+THEMIS daytime infrared mosaic with colorized MOLA topography, showing the
+regional context for the map area.............................................................................map sheet
+CTX mosaic with colorized HRSC topography of the map area. ..........................map sheet
+HiRISE images showing the various textures present in the upper etched unit (Nue):
+A, the ridged surface located in northwestern Jezero; B, the heavily cratered surface
+located in northern Nili Planum; and C, the light-toned rugged surface located in
+southern Nili Planum. ...................................................................................................map sheet
+HiRISE image with colorized CTX stereo topography showing an example of the
+mesa-forming sequence of units Nnp1, Nue, and Nnp2. .....................................map sheet
+CTX images showing the various textures present in unit Nnp1. A, Unit Nnp1 typically
+has rugged topography juxtaposed with smoother surface textures. B, A very rugged,
+mound-forming outcrop of Nnp1 is adjacent to light and dark smooth surface textures
+of Nnp1. C, The smooth Nnp1 texture typically exhibits a dark tone but may also appear
+in lighter tones. ..............................................................................................................map sheet
+HiRISE images with colorized CTX stereo topography showing examples of unit Nrb
+mounds in Jezero crater (A) and in Nili Planum (B). .................................................map sheet
+A, CTX basemap with colorized HRSC topography showing the Jezero delta (unit
+NHjf2). B and C, HiRISE images with colorized CTX stereo topography showing the
+superposition relations between different delta lobes.............................................map sheet
+
+Table
+1.
+
+Identification numbers of the supplemental HiRISE dataset used to map megabreccia
+locations and identify additional characteristics of map units. ...............................................4
+
+iii
+
+iv
+
+Geologic Map of Jezero Crater and the Nili Planum
+Region, Mars
+By Vivian Z. Sun1 and Kathryn M. Stack1
+
+Introduction
+
+Geologic Setting
+
+The cratered highlands located northwest of Isidis Planitia
+have been recognized as one of the best preserved Noachian
+(~3.7–4.1 Ga; Nimmo and Tanaka, 2005) landscapes currently
+exposed on Mars; they host some of the most diverse hydrated
+mineral assemblages detected on the planet (for example,
+Ehlmann and others, 2008a,b, 2009; Mustard and others, 2009).
+Numerous studies of the geomorphology, stratigraphy, and mineralogy in this region (for example, Hiesinger and Head, 2004;
+Fassett and Head, 2005; Mangold and others, 2007; Schon and
+others, 2012; Ehlmann and Mustard, 2012; Goudge and others,
+2015; Bramble and others, 2017; Salvatore and others, 2018)
+have contributed to major advances in Mars science, such as
+helping to establish the paradigm of past abundant liquid water
+at the surface and near subsurface of early Mars during the Noachian period (for example, Scott and Carr, 1978; Pieri, 1980;
+Carr and Clow, 1981; Baker, 1982; Squyres and Kasting, 1994;
+Bibring and others, 2006; Mustard and others, 2008).
+The geologic and mineralogic diversity of the region
+located northwest of Isidis basin makes it a high priority for
+landed mission exploration. The region contained three of
+the eleven top landing-site candidates for the currently active
+Mars Science Laboratory mission (Nili Fossae, northeast Syrtis
+Major, Jezero crater; Golombek and others, 2012). It also
+contained three of the final four landing-site candidates for the
+Mars 2020 mission (northeast Syrtis Major, Jezero crater, Midway). The 45-km-diameter Jezero crater was ultimately selected
+as the landing site for the Mars 2020 Perseverance rover (Grant
+and others, 2018; Fourth landing site workshop for the Mars
+2020 rover mission, 2018). We present a continuous geologic
+map of Jezero crater and Nili Planum (informally referred to
+as northeast Syrtis in the literature) and provide a regional
+geologic framework linking two potentially different habitable
+environments and facilitating future local-scale observations
+from both localities.
+
+The map area, which includes the Jezero crater and Nili
+Planum region, is located northwest of Isidis Planitia (fig. 1).
+Within the map area, Nili Planum contains a sequence of units
+that are present across the broader northwestern Isidis basin. At
+the base of this regional sequence are Early Noachian rocks and
+sediments bearing signatures of low-calcium pyroxene and Fe/Mg
+phyllosilicates (Mustard and others, 2007, 2009; Ehlmann and
+Mustard, 2012) that were modified by the Isidis impact around
+3.85–4.06 Ga (Schultz and Frey, 1990; Werner, 2009). An olivinerich unit overlies this Noachian basement unit and is hypothesized
+to be remnants of either Isidis basin impact melt (Mustard and
+others, 2007, 2009), subsequent volcanic flows (Hamilton and
+Christensen, 2005), or an ash-fall (Kremer and others, 2019) or
+pyroclastic-surge (Mandon and others, 2020) deposit. Portions of
+this olivine-rich unit were subsequently altered to Mg-carbonate
+and, occasionally, serpentine (for example, Ehlmann and others, 2008a,b). A mafic, crater-retaining capping unit overlies the
+olivine-bearing unit (Mustard and others, 2009; Bramble and
+others, 2017). In the map area, the full regional sequence is most
+notably observed in southern Nili Planum, which contains mesas
+composed of the low-calcium pyroxene and Fe/Mg phyllosilicatebearing Noachian basement, overlain by an olivine-rich unit, and
+capped by a mafic unit (Bramble and others, 2017).
+The broader northwestern Isidis basin is incised with channels
+and contains fluvio-lacustrine landforms preserved within a number of topographic lows and craters, such as Jezero (for example,
+Fassett and Head, 2005; Mangold and others, 2007; Ivanov and
+others, 2012), with activity dated to the Late Noachian to Early
+Hesperian (Fassett and Head, 2008; Mangold and others, 2020).
+Within the map area, channels and deltaic or fan-shaped landforms
+are present within the northwest quadrant of Jezero crater and in
+northern Nili Planum. Of the channels associated with Jezero crater, the map area contains the western inlet channel, Neretva Vallis,
+whereas the northern inlet channel, Sava Vallis, and the eastern
+outlet channel, Pliva Vallis, lie outside of the map area.
+Other major regional geologic events are marked by units and
+features that lie outside of the map area. The 3.85–4.06 Ga Isidis
+basin impact resulted in the formation of the concentric Nili Fossae
+graben (Greeley and Guest, 1987), which are located northwest of
+the map area and contain the aforementioned rock types that are
+
+Jet Propulsion Laboratory
+
+1
+
+1
+
+More recent mapping has specifically focused on mapping the
+Jezero crater and Nili Planum region using higher resolution datasets at larger map scales. Goudge and others (2015) mapped Jezero
+crater and its watershed at 1:30,000 scale on a Mars Reconnaissance Orbiter (MRO) Context Camera (CTX) base map, with the
+objective of assessing if the Fe/Mg phyllosilicates and carbonates
+identified in the Jezero delta were sourced from mineralogically
+similar units exposed throughout the watershed outside the crater.
+They identified 28 geologic units within Jezero crater and its watershed, which contains part of the northern extent of Nili Planum
+(fig. 1). Goudge and others proposed a Jezero stratigraphic timeline
+beginning with the emplacement of the stratigraphically equivalent
+“light-toned floor” (LTF) and “mottled terrain” (MT) units after
+Jezero impacted into the regional basement, with unit LTF cropping out on the Jezero floor and unit MT cropping out both within
+Jezero and in its watershed region. Based on analysis of Compact Reconnaissance Imaging Spectrometers for Mars (CRISM;
+Murchie and others, 2007) data, both units LTF and MT contain
+olivine with variable contributions from Mg-rich carbonate. Units
+LTF and MT compose part of the regional olivine-bearing unit that
+has been interpreted as Isidis basin impact melt, volcanic flows, or
+ash-fall or pyroclastic-surge deposits (Hamilton and Christensen,
+2005; Mustard and others, 2007, 2009; Kremer and others, 2019;
+Mandon and others, 2020). The fan deposits, mapped as a “western
+fan deposit” (Fw) and a more heavily eroded “northern fan deposit”
+(Fn), lie stratigraphically above units LTF and MT. The deltaic or
+lacustrine origin of these fan deposits has been established by the
+presence of two inlet valleys (Neretva Vallis and Sava Vallis) and
+an outlet valley (Pliva Vallis) (fig. 1), suggesting that the deposits were emplaced into a hydrologically open lake environment
+(Fassett and Head, 2005; Ehlmann and others, 2008b; Schon and
+others, 2012; Goudge and others, 2015). Several studies have characterized the composition of the western fan deposit, identifying
+Fe/Mg smectite (Ehlmann and others, 2008b) or Fe/Mg smectite
+with variable carbonate and olivine (Ehlmann and others, 2009;
+Goudge and others, 2015), where the olivine and carbonate appear
+to occur within interpreted point-bar deposits (Goudge and others,
+2018; Horgan and others, 2020). The northern fan deposit contains
+olivine and carbonate with minor Fe/Mg smectite (Goudge and others, 2015; Horgan and others, 2020). The compositional difference
+between the fan deposits has been attributed to their detrital origins
+and different source regions, with the western fan deposit sourcing
+sediments from Neretva Vallis and the northern fan deposit sourcing sediments from Sava Vallis (Goudge and others, 2015). Goudge
+and others (2015) interpreted the next major event in Jezero to be
+the emplacement of the “volcanic floor” unit (VF), which was
+deposited on top of unit LTF and is suggested to embay the western
+and northern fan deposits (Schon and others, 2012; Goudge and
+others, 2015; Ruff, 2017). These characteristics, combined with its
+mafic composition, have led some to interpret unit VF as a volcanic
+flow (Schon and others, 2012; Goudge and others, 2015; Ruff,
+2017), although sedimentary or volcaniclastic origins have alternatively been proposed (Sun and Stack, 2019).
+Within the Jezero crater watershed that encompasses
+northern Nili Planum in the map area (fig. 1), Goudge and others
+(2015) mapped the lowest stratigraphic unit as the spectrally
+featureless “dusty, massive basement” unit (Bdm) representing
+the Noachian basement into which Jezero impacted. The “altered
+
+present in southern Nili Planum (for example, Mustard and others,
+2007). Southwest of the map area are high-calcium pyroxene-bearing Syrtis Major lavas, which were emplaced regionally during the
+Early Hesperian (~3.5–3.8 Ga; Hiesinger and Head, 2004).
+
+Previous Maps
+The Jezero crater and adjacent Nili Planum region has been
+included in several past mapping efforts that varied in spatial
+extent, map scale, and scientific objectives. The earliest map
+of this region was published by Meyer and Grolier (1977) at
+1:5,000,000 scale using Mariner 9 data. These researchers mapped
+part of the present-day Nili Planum region as cratered plains material (pc) and ridged plains material (pr) and interpreted these units
+as reworked basin ejecta and basaltic lava flows, respectively.
+Meyer and Grolier (1977) mapped the region immediately around
+Jezero crater as knobby material (k) and interpreted it as the
+erosional remnants of unit pc. They mapped the interior of Jezero
+crater as plains material (p) and interpreted the unit as a regolith
+and eolian mantle overlying the aforementioned units.
+Scott and Carr (1978) published the first global map of
+Mars at 1:25,000,000 scale using Mariner 9 data. This map was
+the first to assign chronostratigraphic ages to units in this map
+region. These researchers mapped the Jezero crater and Nili
+Planum region as Hesperian and Noachian knobby material
+(HNk), which they interpreted as remnants of highland rocks
+and sediments and impact ejecta.
+Greeley and Guest (1987) published a geologic map of the
+eastern equatorial region of Mars at 1:15,000,000 scale using
+Viking Orbiter images, which included the northwestern Isidis
+basin. These researchers mapped Jezero crater and Nili Planum
+as a Noachian etched unit (Nple) interpreted as a cratered unit
+that was mantled and eroded by eolian and, perhaps, some fluvial
+processes.
+The map area is also contained in a map of the larger Isidis
+Planitia region produced by Ivanov and others (2012), who mapped
+the deposits within Jezero crater as Hesperian channeled materials
+(Hmch) because of their association with sinuous fluvial channels.
+They mapped the southern Jezero crater rim as Noachian subdued
+uplands (Nms), interpreted as ancient Noachian rocks that mass
+wasted from older massifs. Ivanov and others (2012) mapped the
+Nili Planum region as Noachian–Hesperian etched uplands (NHue)
+that they interpreted as diverse geologic materials that were variably eroded by eolian, fluvial, and (or) glacial processes.
+Tanaka and others (2014) published an updated global
+geologic map at 1:20,000,000 scale using Mars Global Surveyor
+(MGS) Mars Orbiter Laser Altimeter (MOLA; Neumann and others, 2001) and Mars Odyssey (ODY) Thermal Emission Imaging
+System (THEMIS) daytime infrared data (Edwards and others,
+2011). They mapped the northwestern Isidis basin as two units.
+The deposits within Jezero crater were mapped as part of a Hesperian and Noachian transition unit (HNt), representing “Noachian impact breccias, sediments, and volcanic deposits” with
+contributions from Hesperian erosional products. Nili Planum
+was mapped as a Middle Noachian highland massif unit (mNhm)
+representing “crustal rocks uplifted by large, basin-forming
+impacts [dissected] by… fault structures and erosional valleys.”
+2
+
+basement” unit (Bal) occurs stratigraphically above unit Bdm and
+contains Fe/Mg smectite. The regional olivine-bearing unit MT
+was subsequently emplaced on top of unit Bal (Goudge and others, 2015). A “thin capping” unit (Tcu) was also mapped in small
+exposures along the western rim of Jezero’s crater wall. Goudge
+and others (2015) also identified various younger units, representing surficial debris cover, impact crater structures and ejecta, and
+other fluvial deposits unrelated to the Jezero deposits.
+Bramble and others (2017) mapped the region southwest
+of Jezero crater, including the southern Nili Planum region of
+the current map area (fig.1), identifying five major units with
+morphological heterogeneity. Bramble and others (2017) constructed their map at 1:1,000 and 1:5,000 scales using High
+Resolution Imaging Science Experiment (HiRISE) and CTX
+data, respectively, with the objective of assessing the geologic
+history and mineralogy of units exposed throughout the region.
+Bramble and others identified the “basement unit” (BAU) as
+the stratigraphically lowest unit, representing ancient Noachian
+crust. They subdivided unit BAU, which is generally associated
+with the presence of low-calcium pyroxene, Fe/Mg smectite, and
+rare kaolinite (Ehlmann and Mustard, 2012; Bramble and others,
+2017) into subunits that contain mounds, knobby plains, smooth
+plains, and raised ridges. Megabreccia is also exposed throughout
+unit BAU (Bramble and others, 2017; Scheller and Ehlmann,
+2020). Stratigraphically above unit BAU is the “fractured unit”
+(FRU), which Bramble and others (2017) noted is associated with
+an olivine composition that has been variably altered to Mgcarbonate and represents a part of the regional olivine-bearing
+unit. They also mapped a “capping unit” (CAU) located stratigraphically above unit FRU. Unit CAU has been interpreted as
+a volcanic flow (Bramble and others, 2017) or ash fall or other
+sedimentary deposit (Bramble and others, 2017; Sun and Stack,
+2019). Younger units in the current map area that were mapped
+by Bramble and others (2017) include eolian sediments and
+impact crater units.
+During the selection process for the Mars 2020 landing site,
+Cofield and Stack (2018) and Sun and Stack (2018) produced
+higher-resolution, HiRISE-based maps for the proposed landing
+ellipses at Jezero crater (1:5,000 scale) and southern Nili Planum
+(1:1,000 scale), respectively. These two maps are of relatively
+small 10 by 8 km ellipse areas centered at lat 18.4° N., long
+77.5° E. and lat 17.9° N., long 77.2° E., respectively. Both of
+these mapping efforts expanded on the preceding Goudge and
+others (2015) and Bramble and others (2017) maps at larger map
+scales by identifying additional textures and subunits that may
+inform the diversity of rocks and sediments encountered by a
+rover-scale investigation. Most recently, the Mars 2020 Science
+Team completed a collaborative mapping effort of the region
+around the Jezero crater landing ellipse at 1:5,000 scale (Stack
+and others, 2020). The Mars 2020 team-produced map identified surficial deposits and Jezero crater’s delta deposits at a high
+level of detail, with the objective of establishing the stratigraphic
+framework for the scientific planning and investigation of Jezero
+crater with the Perseverance rover.
+Previous mapping efforts have contributed to substantial
+improvements in our understanding of the geologic history of the
+Jezero crater and Nili Planum region, though none provided a continuous, high-resolution geologic map at uniform scale connecting
+
+the two locations. Such a map is important because Jezero crater
+and Nili Planum, while adjacent, have been interpreted to represent
+two distinct ancient habitable environments on Mars. Studies of
+Jezero crater have characterized it as a surface-habitable lacustrine
+environment on the basis of its preserved deltaic landforms, inlet
+and outlet channels, and hydrated mineralogy (for example, Fassett
+and Head, 2005; Ehlmann and others, 2008b; Schon and others,
+2012; Goudge and others, 2015, 2017). In contrast, studies of
+southern Nili Planum have characterized it as a subsurface-habitable environment, because the region contains a sequence of geologic units bearing hydrated minerals in the absence of obvious or
+preserved links to fluvio-lacustrine processes (for example, Mustard and others, 2007, 2009; Ehlmann and others, 2009; Ehlmann
+and Mustard, 2012; Bramble and others, 2017). These differing
+interpretations persist despite Jezero crater and Nili Planum sharing geologic units that are similar in mineralogy and morphology
+(Bramble and others, 2017; Salvatore and others, 2018). Both sites
+contain Fe/Mg phyllosilicate-bearing rocks as the stratigraphically
+lowest unit (Bdm, Bal in Goudge and others, 2015; BAU in Bramble and others, 2017), overlain by an olivine and carbonate-bearing
+unit (MT, LTF in Goudge and others, 2015; FRU in Bramble and
+others, 2017), and contain a capping unit (Tcu in Goudge and
+others, 2015; CAU in Bramble and others, 2017). Given the close
+proximity of these two areas, it is not improbable that the geologic
+units and history at both sites are related and can be investigated
+and characterized within the context of a continuous geologic map
+spanning both locations.
+The objectives of this map are to enhance future scientific
+investigations of this region of Mars by (1) providing regional
+geologic context for the Mars 2020 and other potential future
+landed missions by helping to bridge regional and local observations, (2) connecting the geologic units across Jezero crater
+and Nili Planum and the history they imply, and (3) enabling
+the extrapolation of units that have been defined primarily by
+mineralogic composition to areas where no orbital spectroscopic
+data exists, because the distinct geologic units observed in this
+region appear to be strongly correlated to distinct mineral compositions (Bramble and others, 2017).
+
+Base Map and Data
+The map area contains both the majority of Jezero crater
+and Nili Planum at a map scale of 1:75,000, which was chosen
+to encompass the Jezero and southern Nili Planum landing sites
+at the time of project initiation. This map covers an area that is
+exactly 1° by 1° (~60 by 60 km), spanning lat 17.7° to 18.7° N.
+and long 76.8° to 77.8° E. (fig. 2).
+The primary base map used for this geologic map is composed of Mars Reconnaissance Orbiter’s (MRO) Context Camera (CTX) images (Malin and others, 2007), compiled into a 6
+meter per pixel (m/pixel) mosaic. We identified defining characteristics, boundaries, and stratigraphic relations of the mapped
+geologic units using the CTX basemap. Early in the mapping
+process, we also referenced the Mars Odyssey’s nighttime
+Thermal Emission Imaging System (THEMIS) image mosaic
+(100 m/pixel mosaic; Christensen and others, 2004, 2013;
+Fergason and others, 2006). We created cross sections from
+3
+
+digital terrain models (DTMs) constructed from CTX images
+(using stereo pairs B18_016575_1978 and B17_016219_1978
+and J03_045994_1986 and J03_046060_1986; Fergason and
+others, 2017) at 20 m/pixel resolution. High-Resolution Stereo
+Camera (HRSC) topographic data from the Mars Express
+(MEX) orbiter (Fergason and others, 2018) also aided in the
+assessment of stratigraphic relations between units. Despite the
+relatively dense coverage of MRO High Resolution Imaging
+Science Experiment (HiRISE) images throughout this region
+and its higher resolution of 0.25–0.50 m/pixel (McEwen and
+others, 2007), incomplete HiRISE coverage over the entire map
+area precluded the use of HiRISE images as the primary base
+map. However, we used HiRISE images, existing at the time of
+mapping (fig. 2; table 1), as a supplemental dataset to identify
+megabreccia exposures visible below CTX resolution (fig. 2)
+and to provide supporting characteristics for units below map
+resolution in the Description of Map Units and in the figures.
+
+Table 1. Identification numbers of the supplemental HiRISE dataset
+used to map megabreccia locations and identify additional characteristics of map units, Jezero crater and Nili Planum region, Mars.
+HiRISE supplemental data
+
+Center latitude
+(degrees)
+
+Center longitude
+(degrees)
+
+PSP_002387_1985
+
+18.488
+
+77.404
+
+PSP_002743_1985
+
+18.54
+
+77.49
+
+ESP_015942_1980
+
+17.818
+
+77.112
+
+ESP_016364_1980
+
+17.892
+
+77.288
+
+ESP_016509_1980
+
+17.822
+
+77.21
+
+ESP_016720_1980
+
+17.785
+
+76.924
+
+ESP_016931_1980
+
+17.809
+
+77.03
+
+ESP_017287_1980
+
+18.204
+
+77.056
+
+ESP_022680_1985
+
+18.23
+
+77.435
+
+Methodology
+
+ESP_022957_1985
+
+18.348
+
+77.619
+
+ESP_023379_1985
+
+18.345
+
+77.525
+
+To distribute mapping responsibilities between the two
+authors (Sun and Stack), we divided the map area into two
+halves along a diagonal line from the northeast to southwest
+corners of the map. We chose this division to ensure that each
+mapper had the opportunity to observe and characterize the full
+range of units in the map area, both within Jezero crater and in
+Nili Planum. We used a baseline set of units based on knowledge
+of previous mapping efforts (Goudge and others, 2015; Bramble
+and others, 2017) and mapped our respective areas with the type
+examples of these baseline units in mind, provisionally creating new unit designations for areas that did not conform to the
+baseline units. Periodic checks, when we compared representative examples of our respective map units, ensured that the same
+standards were being applied to distinguishing units in both
+map halves. We designated units that were mapped in both map
+halves and defined by the same characteristics as final map units
+for the combined map. We further assessed units that had differing characteristics or that we did not identify in both map halves
+to determine if that unit could be consolidated into another established map unit or if that unit was truly distinct and warranted
+designation as its own unit in the combined map. To facilitate
+later reconciliation of the map halves, we also specifically discussed the units to be mapped along the diagonal boundary. We
+then reconciled the two map portions into a single map by making minor adjustments to the contacts along the diagonal divide
+so that they were continuous while preserving the integrity of the
+mapped unit. Finally, Sun reviewed the entire combined map as
+a final check for consistency.
+We performed all mapping and co-registration of datasets
+in a geographic information system (GIS). We projected datasets and shapefiles in the Transverse Mercator projection with
+a central meridian of 77.3° E., with a planetocentric latitude
+and longitude increasing to the east. Points, lines, and polygons
+were digitized in the projected shapefiles. We digitized linework
+at a digital map scale of 1:20,000, which allowed for detailed
+placement of unit boundaries and contacts that would be visible
+at the publication map scale of 1:75,000. We streamed vertices
+
+ESP_024513_1980
+
+18.018
+
+76.895
+
+ESP_034495_1990
+
+18.688
+
+77.662
+
+ESP_036618_1985
+
+18.517
+
+77.281
+
+ESP_037396_1985
+
+18.46
+
+77.371
+
+ESP_037607_1990
+
+18.615
+
+77.574
+
+ESP_037818_1990
+
+18.568
+
+77.452
+
+ESP_045994_1985
+
+18.427
+
+77.437
+
+ESP_048842_1985
+
+18.464
+
+77.517
+
+ESP_049053_1980
+
+17.883
+
+77.15
+
+ESP_049897_1980
+
+17.992
+
+77.059
+
+ESP_052521_1985
+
+18.187
+
+77.119
+
+ESP_053022_1985
+
+18.224
+
+77.187
+
+ESP_053378_1985
+
+18.252
+
+77.132
+
+ESP_053444_1985
+
+18.337
+
+77.055
+
+ESP_053589_1985
+
+18.18
+
+76.978
+
+ESP_053734_1985
+
+18.275
+
+77.317
+
+ESP_053800_1985
+
+18.168
+
+76.903
+
+ESP_053945_1985
+
+18.231
+
+77.252
+
+ESP_054090_1985
+
+18.469
+
+77.103
+
+ESP_054156_1985
+
+18.49
+
+77.034
+
+ESP_055211_1985
+
+18.443
+
+77.227
+
+ESP_055290_1985
+
+18.458
+
+77.365
+
+ESP_055501_1985
+
+18.188
+
+76.977
+
+at a set vertex spacing of 75 m (1 vertex per 1 millimeter at
+1:20,000 digital map scale). We then smoothed the linework
+using the Polynomial Approximation with Exponential Kernal
+with Tolerance algorithm and a tolerance of 40 meters (m).
+4
+
+In this section, we describe (1) the identification and
+grouping, naming, and labeling of the map units, (2) the types of
+contacts employed in this map, and (3) the mapped point, line,
+and surface features. Although this text briefly refers to characteristics and interpretations of the map units and features as
+appropriate, we refer the reader to the Description of Map Units
+and Explanation of Map Symbols for more detailed descriptions
+of the mapped units and features.
+
+different elevations and stratigraphic intervals (for example,
+lat 18.63° N., long 77.64° E.) and that unit Nle may have been
+subsequently chemically and physically altered by lacustrine
+processes despite sharing a common origin with unit Nue.
+Unit Nue contains three distinct surface textures (fig. 3):
+a ridged surface with northeast- to southwest-oriented ridges in
+northern Jezero and northeastern Nili Planum, a heavily cratered
+surface in northern Nili Planum, and a light-toned rugged surface
+that often forms large linear outcrops in southern Nili Planum.
+Though texturally distinct, these three surfaces grade from one
+to the other at map scale and are not always separated by clear
+topographic or stratigraphic contacts. We elected to map all three
+surface textures together as unit Nue, based on their contiguous
+nature and common stratigraphic position relative to other map
+units, and we attributed the cause of these distinct surface textures
+to differential erosion or cementation. However, to illustrate the
+three distinct surface textures on the map, we show the ridged
+surface in the northeastern portion of the map area with a hachured
+pattern to distinguish it from the heavily cratered surface. The
+heavily cratered surface occupies a large portion of northern Nili
+Planum, whereas unit Nue is sparser in southern Nili Planum as a
+light-toned rugged surface that forms long linear outcrops visible
+at map scale (for example, lat 17.78° N., long 77.31° E.).
+In Nili Planum, units Nnp1 and Nnp2 commonly co-occur
+with unit Nue, forming the sequence of unit Nnp1 overlain by unit
+Nue, which is overlain by unit Nnp2 (fig. 4). Unit Nnp1 contains
+three dominant surface textures (fig. 5): a mound-forming surface,
+a rugged high-relief surface, and a smooth low-relief surface that
+frequently appears dark toned. The rugged Nnp1 surface contains irregular or poorly defined margins, that contrast with the
+well-defined margins of adjacent units Nue and Nnp2. Though
+outcrops of the rugged Nnp1 may also appear flat topped like
+unit Nnp2, unit Nnp2 is distinguished by its lobate margins and
+boulder-shedding texture, especially in HiRISE images, in contrast
+to the irregular and less-defined edges of the rugged Nnp1 unit
+(fig. 4). Unit Nnp2 also most commonly caps unit Nue (fig. 4) but
+may also directly overlay unit Nnp1 (for example, lat 18.12° N.,
+long 76.90° E.) or the Jezero crater rim (unit cr; lat 18.39° N., long
+77.27° E.), when unit Nue is absent or not apparent.
+Some parts of unit Nnp1 form light-toned, rugged mounds
+(fig. 5B) that are similar to some outcrops of unit Nrb. However,
+we mapped these rugged mounds as part of unit Nnp1 owing
+to their contiguity with the smooth surface texture of unit Nnp1
+and the onlapping of unit Nue along the sides of these mounds
+(fig. 5B). In contrast, unit Nrb occurs stratigraphically above unit
+Nue, because the latter is visibly exposed along the side of Nrb
+mounds, suggesting that unit Nrb was emplaced on top of unit
+Nue (fig. 6). We mapped other mounds along the west and south
+margins of the Jezero crater wall as unit cr and interpreted them
+as portions of the transient crater rim that have collapsed to form
+the terraced walls characteristic of complex craters (cross section
+B–B'; Pilkington and Grieve, 1992). A crater rim interpretation
+for these mounds is supported by their stratigraphic occurrence
+beneath unit Nue, which onlaps them, and the occurrence of
+megabreccia within these mounds (lat 18.15° N., long 77.53° E.;
+lat 18.29° N., long 77.40° E.), suggesting that these mounds are
+impact-generated products and may consist of the original target
+basement rock.
+
+Unit Groups, Names, and Labels
+We defined map units on the basis of various characteristics visible in the CTX data at map scale, such as their
+texture, tone, morphology, marginal characteristics, geographic
+location, and stratigraphic relation to other units. We grouped
+the 14 map units according to their geographic location and
+regional occurrence as shown in the Description of Map Units.
+The Jezero crater units include four units that occur solely
+within Jezero crater: Jezero fan unit 1 (NHjf1), Jezero fan unit 2
+(NHjf2), Jezero floor unit (Njf), and lower etched unit (Nle).
+The three Nili Planum units occur solely outside of Jezero
+crater in Nili Planum: Nili Planum unit 1 (Nnp1), Nili Planum
+unit 2 (Nnp2), and Nili Planum fan unit (Hnpf). Seven widely
+occurring units occur in both Jezero crater and Nili Planum:
+upper etched unit (Nue); rugged bright unit (Nrb); smooth
+undivided unit (su); eolian bedform unit (Aeb); and crater
+rim (cr), crater ejecta (ce), and crater interior (ci) units that
+correspond to the constituent rim, ejecta, and central interior
+bedrock components of an impact crater. We mapped only unit
+outcrops >0.02 km2 to balance mapping consistency with clarity of the final map.
+We named the map units based on their geographic location and their morphologic, textural, and stratigraphic characteristics compared to one another. The labels for each mapped unit,
+except for the crater ejecta, rim, and interior units, begin with
+an identifier for the chronologic period of unit formation (N,
+Noachian; H, Hesperian; A, Amazonian). After unit age, unit
+labels include abbreviations of the full unit name. For the Jezero
+Crater and Nili Planum groups, the second abbreviation represents geographic occurrence in lowercase (j, Jezero crater; np,
+Nili Planum). Specific unit designations describing stratigraphic
+order (l, lower; u, upper), associated landform (f, fan; f, floor),
+and textural and albedo characteristics (s, smooth; r, rugged;
+b, bright) are indicated by lowercase abbreviations. Numeric
+subscripts (Nili Planum 1 and 2; Jezero fan 1 and 2) indicate
+unit members where 1 is older and 2 is younger..
+Units NHjf1 and NHjf2 form a sequence of fan deposits within Jezero crater, and we used a numeric designation
+to indicate that the fan unit 1 is topographically lower, and
+therefore older, than the fan unit 2. The lower etched unit (Nle),
+occurring only within Jezero crater, is the older, stratigraphically lower complement to the widely occurring upper etched
+unit (Nue). We interpreted that both units Nle and Nue have a
+similar origin based on their olivine-rich composition (Goudge
+and others, 2015) and their often gradational shared contact and
+that unit Nue was deposited conformably on top of unit Nle
+as part of the same depositional event. However, we mapped
+unit Nle as distinct from unit Nue to reflect that they occupy
+5
+
+We mapped a total of 341 small craters between 200 and
+500 m in diameter as point features. Small craters are distributed
+throughout the map area in most units, although they appear to be
+preserved less frequently in smooth-textured units such as parts of
+unit Nnp1. Line features trace the circular or quasi-circular rims
+of craters greater than 500 m in diameter. “Crest of crater rim”
+symbols indicate the relatively sharp and well-exposed rims of
+56 simple craters as much as 7 km in diameter, including Sedona
+crater. Ten “crest of crater rim” segments trace the portion of
+the Jezero crater rim exposed within this map region. “Crest of
+buried crater” symbols indicate the four topographically subdued
+rims of craters whose walls and floor are no longer visible due to
+extensive infilling and (or) mantling.
+We mapped megabreccia exposures as point features and
+identified them at 1:2,500 scale on supplemental HiRISE data
+(fig. 2; table 1). A total of 361 megabreccia points illustrate their
+representative distribution in the map area. Single points indicate individual megabreccia blocks and clusters (1:2,500 scale)
+of closely spaced megabreccia. Multiple points indicate areas of
+greater megabreccia frequency at map scale, particularly in areas
+where the megabreccia were more dispersed and individual blocks
+could not be feasibly mapped. The points in figure 2 represent
+where megabreccia is present but should not be taken as robust
+representations of megabreccia density or extent. The mapped
+points encompass megabreccia blocks from 10 to 100 m (lat
+18.28° N., long 77.30° E.) in diameter. Megabreccias are found
+to occur only in units Nnp1 and cr, which are the stratigraphically
+lowest units in the map area, and we interpreted unit Nnp1 to be
+the target rock for the Jezero impact. The megabreccias, therefore,
+represent preserved blocks of pre-Isidis or pre-Jezero crust.
+“Channel” line features indicate long, sinuous depressions
+in Nili Planum that correspond to Neretva Vallis and Una Vallis.
+We interpreted these sinuous depressions as fluvial channels
+because of their branching nature and termination within basins
+in association with fan-shaped deposits (NHjf2, Hnpf) (Schon and
+others, 2012). Two branching line segments correspond to Una
+Vallis. Neretva Vallis consists of four channel-line segments in
+the map area; some of the segments relate to branching within the
+channel system, and portions of segments are obscured by infilling or deposition of unit Hnpf within Neretva Vallis (for example,
+at lat 18.61° N., long 76.94° E.; lat 18.56° N., long 76.82° E.).
+Two other channels that are outside of the immediate map area
+but are relevant to the geologic and aqueous history of the Jezero
+crater region are Sava Vallis, the northern inlet channel, and Pliva
+Vallis, the outlet channel (fig. 1). “Delta lobe front” line symbols
+on the main NHjf2 unit outline lobes of grouped channel deposits
+inferred to flow from common avulsion nodes.
+“Lineament” symbols represent 98 lineations between
+163 and 691 m in length, located radially around Sedona crater.
+Because of their association with Sedona’s crater ejecta unit and
+the adjacent unit Nue, we interpreted that these radial lineaments
+formed during emplacement of the Sedona impact ejecta. “Ridge
+crest” symbols indicate 176 linear features between 153 and 2,837
+m in length occurring in units Nnp1 and Nue. These ridges occur in
+positive relief relative to the surrounding topography (for example,
+lat 17.92° N., long 77.18° E.) and do not correspond to the raised
+edges of the light-toned, rugged Nue unit in southern Nili Planum.
+Constraining the origin of these linear features was limited by the
+
+The mound-forming, rugged, and smooth unit Nnp1
+surfaces grade between one another without clear stratigraphic
+contacts (fig. 5B) and were therefore mapped together as unit
+Nnp1. To illustrate the spatial occurrence of these two surfaces
+in the map area, we mapped the dark-toned smooth Nnp1
+surface with a dark-colored mantling material feature in areas
+where we interpreted that unit Nnp1 was preferentially mantled
+by an unconsolidated dark, smooth deposit. We also mapped the
+dark-colored mantle surface in portions of unit Njf, especially
+in regions adjacent to the fan unit NHjf2. We interpreted other
+regions containing smooth, intermediate- to dark-toned surfaces to be mantled by similar unconsolidated sediment, but we
+distinctly mapped these occurrences as unit su, if the mantling
+deposit appeared thick enough that the underlying unit cannot
+be determined.
+Unit colors follow previous map convention where
+possible. We chose blue colors to represent fan units (NHjf1,
+NHjf2, Hnpf), following convention for basin units and units
+interpreted to be deposited by fluvial processes (for example,
+Scott and Carr, 1978; Tanaka and others, 2014). Earth tones
+correspond to extensive ancient highland units in Nili Planum
+(Nnp1, Nle, Nue) and for crater units (cr, ce, ci), similar to
+convention set by the color schemes from previous Mars global
+maps (Scott and Carr, 1978; Tanaka and others, 2014). Colors
+for other units (for example, Nnp2, Njf, Nrb) intentionally did
+not follow precedent, such as applying warm colors for volcanic
+units and cool colors for sedimentary units. This is because, at
+map scale, the remaining map units have properties that cannot
+be definitively attributed to either a volcanic or sedimentary
+origin.
+
+Contact Types
+We used certain and approximate contact types to indicate
+the degree of certainty of a mapped contact. A “certain” contact
+indicates when the distinction between two geologic units was
+clear and well defined. An “approximate” contact denotes where
+there was a transition between two defined geologic units, but
+the exact location of the contact could not be confidently identified due to the map scale or, most frequently, overlying surficial
+mantling or eolian deposits.
+
+Mapped Features
+We mapped morphologic features as point and line symbols where they could be singularly distinguished at map scale
+and as patterns where the features cover a broad area (>0.02
+km2) and are relatively closely spaced. We represented these
+features on the map using symbols derived from the Federal
+Geographic Data Committee Digital Cartographic Standard for
+Geologic Map Symbolization (U.S. Geological Survey, 2006),
+with some adaptation to suit the features observed in the map
+area. We imposed size limitations for mapping certain features
+for purposes of legibility at map scale; the features on the map
+are intended to be representative of features in this region but
+should not be treated as a database for all occurrences of these
+features.
+6
+
+surface of interest (2) on sufficiently large surface areas that yield
+reliable statistics (for example, Warner and others, 2015) and that
+are sufficiently crater retaining and relatively resistant to erosion.
+These factors proved difficult to determine in the map area and at
+the map scale.
+For most craters at 1:75,000 publication scale, and even at
+1:20,000 digital mapping scale, discerning whether an individual
+crater predates or postdates the geologic unit within which it
+occurs is difficult. For certain larger craters, such as Sedona and
+Angelica, an ejecta unit is visible and indicates that the crater
+postdates the surface and units into which it impacted. However,
+for most other craters, ejecta deposits are not visible and the
+temporal relation of the crater to the surface unit is unclear. Crater
+counts are also ideally performed over surface areas greater than
+1,000 km2 and, most preferably, over 10,000 km2 (Warner and others, 2015) to minimize errors. However, the total area of our larger
+map units only ranges from 346 km2 (Njf) to 954 km2 (Nue).
+Many of the map units have also undergone significant erosion,
+as evidenced by inverted topographic features in several units that
+resulted in the removal of smaller craters from the surface and
+may skew any derived absolute ages (Smith and others, 2008).
+These complications are demonstrated in the existing
+literature pertaining to this region. The Jezero floor (unit Njf) has
+been mapped and age-dated by several workers who used varying
+methods and derived ages ranging from Noachian–Hesperian to
+Amazonian: 3.5 Ga (Goudge and others, 2015), 2 Ga (Shahrzad
+and others, 2019), 1.4 Ga (Schon and others, 2012). Given these
+difficulties, and the existing uncertainty of derived ages for some
+of the units in this region, we elected to derive relative ages rather
+than absolute ages and to reference previously published absolute
+ages as appropriate in the Geologic Summary. For Njf, which we
+interpreted to underlie fan units NHjf1 and NHjf2, a Late Noachian
+age was constrained by the age of the regional fluvial activity
+leading to the deposition of units NHjf1 and NHjf2, which ranges
+from Late Noachian to Early Hesperian (Fassett and Head, 2008;
+Ivanov and others, 2012; Mangold and others, 2020).
+We describe the relative age relations between the remaining map units in the Methodology section and the Description
+of Map Units and summarize them in the Correlation of Map
+Units. Here, we discuss the relative timings of six prominent
+named craters that are large enough to have mappable crater
+ejecta, rim, or interior units and constrain the range of possible
+relative ages of these impact events. We note that, because no
+obvious ejecta units are associated with Jezero, the age of the
+Jezero impact can only be constrained from stratigraphic relations with other map units. This is discussed further in the Geologic Summary. Ulricehamn crater has a sharp crater rim at map
+scale but poorly defined ejecta and is located solely within unit
+Nnp1. We interpreted the lack of clear ejecta to have resulted
+from erosional degradation and (or) the Ulricehamn impact
+occurring during the emplacement of unit Nnp1, which may
+place its age as Middle Noachian. The Hartwell crater occurs
+within unit Njf and, though it has a well-defined crater rim,
+unit Njf appears to infill the area where Hartwell ejecta would
+have been deposited. Consequently, we interpreted the Hartwell
+impact to predate the emplacement of unit Njf, which constrains
+its impact age to the Middle or Late Noachian after the Jezero
+impact and before the emplacement of unit Njf. Sedona crater
+
+map scale and the undetermined origin of the host unit (Nnp1; see
+Description of Map Units), though we interpreted them as fractures
+that have been filled or cemented by mineralization, resulting in
+their relative resistance to erosion compared to surrounding rocks
+and causing these features to appear in positive relief. These ridges
+may be related to linear features in the light-toned rugged Nue
+unit, which contains large linear outcrops as long as 2 to 5 km (lat
+17.78° N., long 77.31° E.), and the ridges located in unit Nnp1 may
+intersect unit Nue (for example, lat 18.19° N., long 77.06° E.).
+Two surface features indicate textural variations in units
+Nnp1, Njf, and Nue. The “ridged surface” occurs only in the
+portion of unit Nue mapped in the northeastern portion of the
+map area, within and around the north rim of Jezero crater. This
+surface consists of 31 discrete regions ranging in area from
+0.02 to 82.67 km2, encompassing a total area of 167.69 km2.
+The ridged surface contains lineations as long as 400 m that are
+oriented northeast-southwest (fig. 3A). In contrast to other linear
+features in the map area, such as the “ridge crest” feature in unit
+Nnp1, the ridges in the ridged surface of unit Nue tend to be
+shorter—on the scale of a few hundred meters in length at most—
+and are more closely spaced (tens of meters to a hundred meters).
+These ridges are interpreted as yardangs (Day and Dorn, 2019).
+Although texturally distinct from the other parts of unit Nue, we
+could not confidently place the stratigraphic transition between
+the ridged surface and the rest of unit Nue, thus we mapped this
+surface texture as part of unit Nue and used the “ridged surface”
+to indicate the extent of this texture.
+The “dark-colored mantling material” occurs in units Nnp1
+and Njf. This feature consists of 256 discrete occurrences ranging
+in area from 0.04 to 75.95 km2, encompassing a total surface area
+of 418.5 km2. This feature corresponds to intermediate- to darktoned areas that appear consistently smooth textured over an areal
+extent of at least 0.02 km2 (fig. 5) but where the underlying bedrock unit is discernible or confidently interpreted. We interpreted
+this deposit as surficial cover overlying the more rugged bedrock
+typical of units Nnp1 and Njf. Because this deposit occurs primarily in Jezero crater along the contact between units Njf and NHjf2,
+we hypothesize that the dark mantling deposit on top of unit Njf is
+an erosional lag derived from unit NHjf2 that was deposited as the
+delta eroded. The source of the dark mantling deposit overlying
+unit Nnp1 is not well constrained, but it may be sourced from the
+erosion of local rocks, potentially combined with airfall deposition given its wide areal distribution, draping of topography, and
+preferential accumulation in low-elevation areas.
+
+Age Determinations
+We determined relative age relations on the basis of crosscutting and superposition relations between map units. We did not
+derive absolute ages through crater counts on mapped geologic
+units for the reasons detailed below. Crater-count dating is a
+technique based on the principle that a newly emplaced surface
+contains no craters and, thereafter, accumulates craters at a rate
+extrapolated from the lunar chronology (for example, Crater
+Analysis Techniques Working Group, 1979; Hartmann and Neukum, 2001; Werner and Tanaka, 2011). Successful application of
+this technique relies on counting (1) only craters that postdate the
+7
+
+favor a mineralized fracture or clastic dike origin (Saper and
+Mustard, 2013; Bramble and others, 2017; Pascuzzo and others,
+2019) over breccia or igneous-dike interpretations (Bramble and
+others, 2017). We interpreted that the Isidis impact generated
+fractures in unit Nnp1, which were later mineralized or facilitated
+clastic-dike intrusion, potentially during deposition of unit Nue.
+The Jezero impact occurred after the Isidis impact during
+the Middle Noachian. The age of Jezero crater is constrained to
+Middle Noachian because it is older than the regionally extensive
+olivine-bearing deposit (Nue; MT in Goudge and others, 2015;
+FTU in Bramble and others, 2017) that drapes over the crater rim
+and has an estimated age of 3.82±0.07 Ga (Kremer and others,
+2019; Mandon and others, 2020). The Jezero impact may have
+further altered and deformed the surrounding unit Nnp1, resulting
+in warping and faulting of stratified rocks exposed on the Jezero
+crater rim in HiRISE images (for example, lat 18.46° N., long
+77.26° E.; Stack and others, 2020). We interpreted that megabreccia throughout the map area (fig. 2) was produced by both the
+Isidis basin and Jezero impacts and may represent pre-Isidis and
+pre-Jezero components of unit Nnp1. Some megabreccia blocks
+contain banding or stratification at HiRISE scale (lat 17.88° N.,
+long 77.08° E.) and may preserve remnants of pre-impact stratigraphy, although higher-resolution in situ investigations are needed
+to characterize whether these megabreccia preserve sedimentary
+or volcanic rocks (for example, Caudill and others, 2012).
+During and after the Jezero impact, collapse of the transient
+crater rim resulted in the terraced walls (cross section B–B'; Pilkington and Grieve, 1992) that are currently exposed as mounds
+that contain megabreccia (lat 18.15° N., long 77.53° E.; lat
+18.29° N., long 77.40° E.) and underlie the subsequently deposited unit Nue. Though the Jezero impact surely generated ejecta,
+ejecta deposits associated with Jezero are notably unrecognizable in the map area. This suggests that Jezero’s ejecta deposits
+were incorporated into the pre-existing Nnp1 unit and may be
+obscured by the deposition of unit Nue. During this Middle
+Noachian period and prior to the emplacement of unit Nue, the
+Ulricehamn impact may have also occurred, though its timing
+relative to the Jezero impact cannot be constrained because both
+impacted into unit Nnp1 and lack common stratigraphic relations
+with other map units.
+After the Jezero crater impact, units Nle and Nue were
+emplaced throughout the map area; unit Nue was conformably
+deposited on unit Nle. We inferred that unit Nle shares a similar
+origin with unit Nue on the basis of their olivine-bearing composition (Goudge and others, 2015) and their often gradational
+shared contact. We therefore interpreted unit Nue, and unit Nle by
+proxy, as ash-fall or pyroclastic-surge deposits due to the draping
+morphology and banding observed in unit Nue (Kremer and others, 2019; Mandon and others, 2020). The banding and fracturing
+observed elsewhere in the regional olivine-bearing unit (Kremer
+and others, 2019) and the occurrence of unit Nue over the Isidisgenerated unit Nnp1 argue against an Isidis impact-melt origin
+as proposed by Mustard and others (2007, 2009). The draping of
+unit Nue (Kremer and others, 2019), which occurs at elevations
+ranging from –2,707 m within Jezero to –1,787 m in Nili Planum
+in the map area, also precludes a volcanic flow origin (Hamilton
+and Christensen, 2005). Unit Nle may also include contributions from lacustrine processes on the basis of its occurrence on
+
+has an extensive ejecta unit overlying units Nnp1 and Nue and
+it appears to embay unit Nrb. These relations place the impact
+event during the Late Noachian or later, after Nrb emplacement.
+Marysville crater in Nili Planum does not have a clearly defined
+ejecta unit, but faint lineations in the adjacent unit Nnp1 appear
+to radiate from Marysville crater. Nearby occurrences of units
+Nue and Nnp2 also appear to terminate near the Marysville crater rim, suggesting that the impact disturbed pre-existing units
+Nue and Nnp2, placing the impact during the Late Noachian
+or later. Angelica crater contains an ejecta unit that appears to
+overlie unit Nue and disrupts the nearby portion of Neretva Vallis but also has a rim that is partially draped by unit Hnpf, suggesting an Early Hesperian impact after the majority of Neretva
+Vallis activity and before Hnpf deposition. Belva crater is
+located on top of unit NHjf2 and exposes deltaic strata within its
+crater walls, indicating that it occurred after deposition of unit
+NHjf2, during the Late Hesperian. We interpreted all six craters
+to have impacted prior to the emplacement of unit Aeb, which
+is the youngest map unit and occurs within these craters.
+
+Geologic Summary
+The geologic history of the Jezero crater and Nili Planum
+region is summarized graphically in the Correlation of Map
+Units and the cross sections and is described in detail in this
+section. This discussion is based primarily on the results of our
+mapping, with consideration of previously published hypotheses
+in the extensive literature for this region.
+
+Early to Middle Noachian
+During the Early Noachian prior to the Isidis basin impact,
+rocks and sediments that would eventually form parts of unit
+Nnp1 were emplaced in the map region. Discerning whether the
+pre-Isidis components of unit Nnp1 were volcanic and (or) sedimentary in origin is not possible without rover-scale observations
+of micro-scale textures and composition (for example, Martin and
+others, 2020). From orbital data, a lack of obvious volcanic vents
+or fluvial features associated with unit Nnp1 precludes distinguishing between these origins, and subsequent modification by
+the Isidis and Jezero impacts confounds the distinction of primary
+emplacement processes. The Isidis basin impact occurred about
+3.85–4.06 Ga (Schultz and Frey, 1990; Werner, 2009), resulting
+in syn-Isidis deposition of ejecta units including megabreccia
+(Bramble and others, 2017; Scheller and Ehlmann, 2020) and
+the excavation, uplift, and deformation of Early Noachian crustal
+units in unit Nnp1. This impact produced a range of mapped
+Nnp1 textures that grade between one another (fig. 5): a highstanding mound-forming surface; a rugged high-relief surface;
+and a smooth, low-relief surface whose present-day appearance
+may result from subsequent erosion, mass wasting, and erosion
+from the rugged Nnp1 outcrops. The Isidis impact may have also
+initiated the formation of the linear ridges occurring in unit Nnp1.
+These ridges range to 2,837 m in length and can extend into unit
+Nue (for example, lat 18.19° N., long 77.06° E.; lat 17.86° N.,
+long 77.03° E.). Studies have shown that these ridge geometries
+8
+
+the Jezero crater floor, where it is exposed primarily in erosional
+windows beneath unit Njf. Unit Nle may, therefore, represent
+airfall sediments deposited into a lake within Jezero, and (or) unit
+Nle was subsequently chemically altered or physically reworked
+by lacustrine processes, perhaps in the same lake environment
+that emplaced the fan deposits NHjf1 or NHjf2. By contrast, unit
+Nue is topographically and stratigraphically higher than unit Nle,
+occurs along the Jezero crater walls and in Nili Planum, and may
+not have been affected by lacustrine processes like unit Nle.
+In Nili Planum, unit Nue was deposited on top of unit
+Nnp1, and has a possible emplacement age of 3.82±0.07 Ga
+(Mandon and others, 2020). Unit Nue has a heavily cratered
+surface in northern Nili Planum and has a light-toned rugged
+surface in southern Nili Planum that often forms large linear
+outcrops with raised ridges along its margins (for example, lat
+17.78° N., long 77.31° E.). The formation of these linear features
+in unit Nue may coincide with the formation of the raised linear
+ridges in unit Nnp1 (for example, lat 18.19° N., long 77.06° E.;
+lat 17.86° N., long 77.03° E.), which Pascuzzo and others (2019)
+interpreted as mineralized fractures or clastic dike intrusions that
+exploited fractures generated by the Isidis impact. We interpreted
+that the linear occurrences of unit Nue may have formed through
+similar infilling of pre-existing fractures, and subsequent cementation of unit Nue may have made it more resistant to erosion,
+resulting in the formation of the raised ridges along the margins
+of unit Nue in southern Nili Planum.
+
+After the widespread emplacement of units Nue and Nrb, we
+interpreted that erosion of these units occurred based on the isolated occurrences of unit Nrb and the slopes of unit Nrb exposing
+unit Nue that are topographically higher than adjacent eroded Nue
+outcrops (fig. 6). Eroded sediments may have collected in the local
+topographic lows of unit Nnp1, contributing to the smooth, dark
+textures that we mapped as a dark mantling deposit (fig. 5B,C).
+During this interval of time from the Middle to Late Noachian, the
+Hartwell crater also impacted the Jezero crater floor and its ejecta
+was subsequently covered by the emplacement of unit Njf.
+Units Njf and Nnp2 were deposited in Jezero crater and Nili
+Planum, respectively, during the Late Noachian. Unit Njf was
+deposited solely within Jezero crater on the crater floor and has
+since been eroded in some locations to expose the underlying unit
+Nle (lat 18.44° N., long 77.44° E.; lat 18.33° N., long 77.73° E.).
+Coincident with the deposition of unit Njf in Jezero is the deposition of unit Nnp2 in Nili Planum on top of units Nue, Nnp1, and
+cr. Unit Nnp2 most commonly overlies unit Nue, forming distinct
+mesa features throughout Nili Planum (fig. 4), although other occurrences of unit Nnp2 appear to directly overlie unit Nnp1 or cr where
+unit Nue is not present or apparent. Units Njf and Nnp2 share many
+similar erosional characteristics, including rugged, heavily cratered
+surfaces and well-defined, low-relief lobate scarps along the unit
+margins. On the basis of these similarities, we interpreted that
+units Njf and Nnp2 are genetically related and formed by the same
+process, although we mapped them as separate units because their
+distinct geographic occurrences on the Jezero crater floor and in
+Nili Planum allow the possibility of distinct depositional origins or
+chemical alteration or physical reworking of unit Njf by subsequent
+lacustrine processes during the deposition of units NHjf1 and NHjf2.
+Occurrences of unit Nnp2 span 241 m of elevation range (–2,067
+to –1,826 m) within the map area and more than 1 km of elevation
+range within the larger northwestern Isidis basin (Sun and Stack,
+2019). A fluvial or volcanic-flow origin would require significant
+erosion to produce the present-day remnants of unit Nnp2 with
+more than 1 km of elevation difference across large spatial distances in the larger northwestern Isidis basin (Sun and Stack, 2019),
+therefore we interpreted unit Nnp2 to be a clastic deposit, such as
+a volcanic ash or eolian airfall deposit. Such a deposit would have
+draped pre-existing topography at different elevation ranges and
+would explain why unit Nnp2 presently occurs on the Jezero crater
+rim (lat 18.39° N., long 77.27° E.). Banding or stratification visible
+along some margins (for example, lat 17.87° N., long 77.09° E.)
+suggests that deposition may have occurred in multiple, localized
+episodes. Based on the similarities between units Njf and Nnp2, we
+favor a similar ash or airfall origin for unit Njf as well, in contrast
+to the volcanic flow origin favored by Schon and others (2012) and
+Goudge and others (2015). We interpreted that both units Nnp2
+and Njf also have similar emplacement ages. A wide range of crater
+count-derived ages have been reported for unit Njf, ranging from
+Noachian–Hesperian to Amazonian: 3.5 Ga (Goudge and others,
+2015), 2 Ga (Shahrzad and others, 2019), 1.4 Ga (Schon and others,
+2012). We interpreted unit Njf to have been emplaced before the
+deposition of fan units NHjf1 and NHjf2, which represent regional
+fluvial activity that is dated to the Late Noachian and Early Hesperian (Fassett and Head, 2008; Ivanov and others, 2012; Mangold
+and others, 2020), thereby placing unit Njf, and therefore unit Nnp2,
+emplacement during the Late Noachian.
+
+Late Noachian to Early Hesperian
+Unit Nrb was subsequently emplaced on top of unit Nue
+during the Late Noachian, after erosion of units Nue and Nle.
+Unit Nrb occurs throughout Nili Planum and along the northern Jezero crater rim, and the sides of these mounds sometimes
+expose portions of unit Nue that are topographically higher than
+adjacent, continuous outcrops of unit Nue, suggesting that unit
+Nrb was emplaced on top of unit Nue (fig. 6). We interpreted
+that there is a nonconformable contact between units Nue and
+Nrb because it occurs at different elevations (cross section B–B').
+The largest exposures of unit Nrb were mapped at map scale but,
+at HiRISE scale, we also observed smaller mounds that overlie
+unit Nue throughout the map area (for example, lat 17.87° N.,
+long 77.25° E.; lat 18.10° N., long 77.31° E.), suggesting that
+unit Nrb was formerly a more extensive deposit that eroded after
+emplacement to its current mound-forming surface. The origin
+of unit Nrb is uncertain, because it may have eroded as much as
+30–70 m based on comparison of the present-day elevation of
+unit Nrb compared to exposures of unit Nue (for example, lat
+17.75° N., long 77.11° E.; lat 18.69° N., long 77.67° E.). The Nrb
+mounds do not appear to be stratified except for a few instances
+that may exhibit subtle, coarse stratification at HiRISE scale (lat
+17.88° N., long 77.18° E.; lat 17.86° N., long 77.09° E.), and
+there is no clear evidence for fluvial or volcanic contributions to
+their formation (for example, inverted channels or volcanic-flow
+morphologies associated with unit Nrb). By elimination, airfall
+deposition may be a possible origin for unit Nrb, but overall we
+interpreted that a sedimentary or volcanic origin cannot be confidently determined based on these heavily eroded and isolated
+occurrences of unit Nrb.
+9
+
+Notable impact events during the Late Noachian include
+the Sedona and Marysville impacts. The Sedona impact produced an ejecta unit overlying units Nnp1 and Nue and embaying unit Nrb, placing the impact event during the Late Noachian
+or later. The Marysville impact occurred after the emplacement
+of units Nue and Nnp2, disrupting occurrences of unit Nue and
+Nnp2 in the target region and placing the Marysville impact during the Late Noachian or later.
+After the emplacement of units Njf and Nnp2, fluvial or
+alluvial and deltaic processes deposited the fan units, NHjf1, NHjf2,
+and Hnpf, which are associated with fan-shaped landforms and
+nearby channels, Neretva and Una Valles. Within Jezero crater, unit
+NHjf1 was the first to be deposited, and currently it occurs in the
+northwest quadrant of the Jezero crater floor. Subsequent deposition emplaced unit NHjf2, which currently occurs along Jezero’s
+western crater floor. Several distinct lobes defined by ridges—
+which we interpreted as fluvial channels—that originate from
+common avulsion nodes are discernible within unit NHjf2 (fig. 7).
+We inferred unit NHjf1 to be older than unit NHjf2 on the basis of
+its greater distance from the Neretva Vallis inlet channel and its
+lower elevation, especially where unit NHjf2 is deposited on top
+of unit NHjf1 (lat 18.58° N., long 77.48° E.). In line with previous
+studies, we favored a deltaic and (or) lacustrine origin for units
+NHjf1 and NHjf2, based on the presence of both inlet and outlet
+channels that indicate a hydrologically open lake environment (for
+example, Fassett and Head, 2005; Schon and others, 2012; Goudge
+and others, 2015, 2017, 2018). Though the full range of morphological and stratigraphic features that have been used by previous
+studies to support a deltaic origin for unit NHjf2 are not resolvable
+at the map scale, we made no new observations that would refute
+the depositional interpretation favored by past studies. In contrast,
+we did not find compelling evidence to support previous interpretations that unit NHjf1 was deposited via the northern Sava Vallis
+inlet channel (Goudge and others, 2015). We did not observe any
+fluvial features immediately near unit NHjf1 other than unit NHjf2,
+which is contiguous with an outcrop of unit NHjf1 (lat 18.58° N.,
+long 77.48° E.), that would support a depositional connection
+between unit NHjf1 and the northern Sava Vallis inlet channel. We
+also interpreted arcuate ridges in the southwestern exposure of unit
+NHjf1 (lat 18.59° N., long 77.47° E.) as inverted channels that suggest transportation from the western Neretva Vallis channel.
+We interpreted that unit NHjf1 was deposited on top of unit
+Njf during the Late Noachian, with deposition of unit NHjf2 following thereafter and potentially spanning the Late Noachian to
+the Early Hesperian. Several episodes of deposition are preserved
+in unit NHjf2 as distinct delta lobes that can be traced back to
+common avulsion nodes and show crosscutting relations (fig. 7).
+Conformable deposition between units Njf, NHjf1, and NHjf2 is
+difficult to assess because the contact between units Njf and NHjf2
+is obscured by a dark mantling deposit, and the contact between
+units NHjf1 and NHjf2 is approximate, with no visible stratification
+within or between the two fan units at map scale (lat 18.58° N.,
+long 77.48° E.). The initial deposition of unit NHjf2 may have
+been substantially more extensive than that preserved in Jezero
+crater today. After deposition of unit NHjf2, subsequent erosion left
+remnant mounds, mapped here as unit NHjf2, toward the center of
+the Jezero crater floor (lat 18.47° N., long 77.50° E.). Erosional
+lag, derived from the erosion of the NHjf2 deposit, may have also
+
+contributed to the smooth, dark texture mapped as a dark mantling
+deposit on unit Njf, which is concentrated near the contact between
+units NHjf2 and Njf.
+In Nili Planum, several exposures of unit Hnpf occur near
+Neretva Vallis and Una Vallis. These Hnpf deposits appear different than the Jezero interior fans (NHjf1 and NHjf2), because they
+are darker in tone, have a smoother surface texture, and exhibit a
+comparatively less defined fan-shaped morphology. We interpreted that unit Hnpf was deposited during the Early Hesperian
+as one of the last widespread units to be emplaced in Nili Planum.
+One outcrop of Hnpf (lat 18.47° N., long 76.89° E.) has a clear
+apex marking the transition from an elongate channel deposit
+to a fan-shaped deposit. Portions of unit Hnpf appear to overlie
+and infill parts of Neretva Vallis (for example, lat 18.61° N., long
+76.94° E.; lat 18.56° N., long 76.82° E.) with minimal fluvial
+incision on unit Hnpf itself, suggesting that unit Hnpf represents
+the remnants of alluvial or fluvial deposits emplaced during the
+late stages of the Neretva Vallis system as deposition of unit
+NHjf2 waned. Outcrops of unit Hnpf near Una Vallis occur in
+two depressions, one at the end point for Una Vallis, and contain
+stratification at HiRISE scale (lat 18.33° N., long 77.09° E.).
+This alluvial or fluvial interpretation for unit Hnpf contrasts with
+the “dark, smooth volcanic unit” interpretation by Goudge and
+others (2015). The unit Hnpf’s dark, smooth-textured appearance
+suggests that its present-day surface is covered by a dark sediment, which may have been emplaced as a mantling deposit or by
+erosion of higher strata of unit Hnpf, similar to the production of
+dark mantle on unit Njf near its contact with unit NHjf2.
+We constrained two impact events in the map area in association with the fan deposits. Ejecta from the Angelica impact overlie
+unit Nue and also disrupt the portion of Neretva Vallis to the south
+of the crater. The Angelica crater rim is also partially draped by unit
+Hnpf. These relations suggest that the Angelica impact occurred
+toward the later stages of Neretva Vallis fluvial activity in the Early
+Hesperian, otherwise Neretva Vallis would be continuously incised
+into the Angelica ejecta. Within Jezero crater, the Belva impact
+occurred during or after the Hesperian after the emplacement of
+unit NHjf2, exposing deltaic strata within its crater walls.
+
+Late Hesperian to Late Amazonian
+We interpreted that most units in the map area had been
+deposited by the Late Hesperian, based on dating of regional fluvial
+activity to this period (Fassett and Head, 2008; Mangold and others, 2020). Subsequent erosion and mass wasting occurred from
+the Late Hesperian to the present day, forming some of the textural
+variations observed in several units and mapped as surface features.
+Eolian erosion formed the ridged surface in the northeastern portion of unit Nue (fig. 3A) and the ridges are interpreted as yardangs
+(Day and Dorn, 2019). Erosion of local or regional units continued
+to contribute to the deposition of the dark-colored mantle overlying
+units Njf and Nnp1 and collecting in topographically lower regions.
+In particular, continued erosion of the fan units NHjf2 and Hnpf
+may have produced erosional lag deposits that contribute to the
+dark smooth textures present along the western portion of unit Njf
+and on the surface of unit Hnpf, respectively. Fan unit NHjf2 may
+have continued to erode substantially, leaving only a few remnant
+deposits on unit Njf (lat 18.47° N., long 77.50° E.). Throughout the
+10
+
+Amazonian, erosion and eolian transport processes contributed to
+the formation of the eolian unit Aeb, which overlies many of the
+aforementioned geologic units and is interpreted as the youngest unit deposited in the map area. Unit Aeb is interpreted to be
+composed of transverse eolian ridges (Day and Dorn, 2019), whose
+bedforms are oriented orthogonal to prevailing wind directions
+(Balme and others, 2008). The bedforms in the map area are primarily oriented north-south, implying dominantly east-west wind
+directions (Day and Dorn, 2019). Unit su was emplaced on top
+of the other map units, typically occurring along slopes or collecting in local topographic lows and is marked by a smooth surface
+texture at map scale. The origin and depositional timing of unit su
+is unclear, and it may represent deposition at different times, by
+different processes, in different parts of the map area throughout
+the geologic timeline of the region. Occurrences of unit su on the
+slopes of crater rims and other high-standing features may be due
+to mass wasting of local high-relief outcrops. The presence of unit
+su within local topographic lows may also represent the residual
+accumulation of sand, pebbles, and cobbles resulting from erosion. Unit su may also have a genetic relation to the dark mantling
+deposit, particularly for occurrences overlying unit Nnp1 in Nili
+Planum. Given the wide areal distribution, occurrence at a range
+of elevations, and preferential accumulation in topographic lows,
+components of unit su and the dark mantling deposit may also
+reflect widespread deposition via air fall.
+
+phyllosilicate with the smooth Nili Planum unit 1 (Nnp1;
+Bramble and others, 2017; Pascuzzo and others, 2019), olivine
+and variable carbonate with the lower and upper etched units
+Nle and Nue (Goudge and others, 2015; Bramble and others,
+2017), and mafic compositions with the Jezero floor unit Njf
+and Nili Planum unit 2 (Nnp2; Goudge and others, 2015;
+Bramble and others, 2017). These associations allow mineralogy to be reasonably inferred in regions lacking orbital mineralogic data where the host geologic units have been mapped.
+This information is important because rocks bearing hydrated
+minerals like Fe/Mg phyllosilicate and carbonate are considered important astrobiological targets for investigation and
+potential sampling with the Perseverance rover (for example,
+Horgan and others, 2020). Confirming the origins of these
+units and their complete mineralogy will ultimately require
+analyses from higher resolution instruments on the Perseverance rover and from returned samples, but the interpretations
+from our mapping provide the regional geologic framework
+for future local in situ observations.
+2.
+
+This map delineates several previously unmapped surface
+textures in the map region, further highlighting the role of
+erosion in shaping the rocks and sediments that the Perseverance rover may encounter. Smooth surface textures, inferred
+to represent mass wasting, erosional lag, or mantling deposits, are mapped in the Jezero floor unit (Njf) and Nili Planum
+unit 1 (Nnp1) and are characteristic of the Nili Planum fan
+unit (Hnpf) and smooth unit (su). Ridged surface textures
+are recognized in the upper etched unit (Nue) and represent
+yardangs in that unit (Day and Dorn, 2019).
+
+3.
+
+We interpreted that the Jezero floor unit (Njf) and Nili Planum unit 2 (Nnp2) share a common origin such as a volcanic
+ash or eolian airfall deposit, contrary to previous interpretations of a volcanic flow for unit Njf (Schon and others, 2012;
+Goudge and others, 2015). Based on the shared erosional
+characteristics between units Njf and Nnp2, including rugged,
+cratered surfaces with lobate margins, and the occurrence of
+unit Nnp2 with over 1 km of elevation range (Sun and Stack,
+2019), we interpreted both units Njf and Nnp2 to represent an
+airfall deposit that draped pre-existing topography, including the west rim of Jezero crater. Whether unit Njf is an ash
+deposit or lava flow carries different implications for the use
+of samples collected by the Perseverance rover in calibrating
+the Mars crater chronology (Grant and others, 2018).
+
+4.
+
+We present a revised timing of fluvial events in the map
+area. We interpreted that the fan units NHjf1 and NHjf2
+were deposited after the emplacement of the Jezero floor
+unit (Njf) and that the older unit NHjf1 was deposited from
+Neretva Vallis and not Sava Vallis, in contrast to previous
+interpretations (Goudge and others, 2015). In Nili Planum,
+we identify fan deposits (Hnpf) in and around Neretva and
+Una Valles that represents younger sedimentation as fluvial
+input into Jezero crater waned during the Early Hesperian.
+
+5.
+
+This map shows a mound-forming unit Nrb that exposes the
+upper etched unit (Nue) along its slopes and that had not
+been previously mapped as occurring stratigraphically higher
+
+Conclusions
+This map represents the first, large-scale, continuous geologic map spanning both Jezero crater and Nili Planum using
+high-resolution images. It provides a regional geologic framework for future in situ investigations by the Perseverance rover at
+Jezero crater and connects two localities that have been hypothesized to represent different surface and subsurface habitable
+environments. Building on previous maps and studies cited in this
+text, the results from this map advance our understanding of the
+Jezero crater and Nili Planum region in the following ways:
+1.
+
+In addition to informing the geologic history of this region, the
+geologic units mapped throughout this map area serve as proxies for associated mineralogic composition in areas where no
+orbital spectroscopic data are available. High-resolution orbital
+mineralogic data, such as those supplied by the MRO CRISM
+instrument in targeted mode (Murchie and others, 2007),
+provide an important resource for rover mission planning,
+as demonstrated by the Mars Exploration Rovers, Spirit and
+Opportunity, and the Mars Science Laboratory Curiosity rover
+missions. High-resolution mineralogic data is comparatively
+absent in the vicinity of the the Midway ellipse, an 8.5 x 8 km
+area centered at lat 18.3° N., long 77.0° E. that was a candidate
+ellipse for Mars 2020 and is a potential future destination for
+the Perseverance rover after Jezero crater (Fourth landing site
+workshop for the Mars 2020 rover mission, 2018) that had
+not been mapped as part of a regional map until now. Several
+geologic map units can be considered proxies for mineralogy
+on the basis of their strong correlation with particular mineral
+compositions, for example, low-calcium pyroxene and Fe/Mg
+11
+
+Acknowledgments
+
+than unit Nue. The occurrence of Nrb mounds above unit
+Nue throughout the map area implies erosion, on the order of
+30–70 m, of a potentially more contiguous unit in this region.
+In contrast, we identified megabreccia within mounds along
+the south and west margins of the Jezero crater walls and
+interpreted these mounds to be remnants of transient crater
+rim collapse during the Jezero impact.
+6.
+
+We derived relative ages, based on superposition relations,
+for six notable impact craters other than Jezero in the map
+area: Ulricehamn, Hartwell, Sedona, Marysville, Angelica,
+and Belva craters.
+
+7.
+
+This mapping reinforced the connection between linear
+ridges in unit Nnp1 and adjacent occurrences of unit Nue
+bearing margins characterized by raised ridges in southern
+Nili Planum (Bramble and others, 2017; Pascuzzo and others, 2019). Both raised features may have formed through
+infilling of pre-existing fractures generated by the Isidis
+impact, and subsequent cementation and erosion resulted in
+their present-day high-relief topography.
+
+We are extremely grateful to Jeff Schroeder of the Jet
+Propulsion Laboratory for his help in assembling the completed
+map package, including combining the two map halves from
+Vivian Z. Sun and Kathryn M. Stack, finalizing shapefiles,
+annotating the map and associated components, and digitizing
+figures. We also thank U.S. Geological Survey Astrogeology
+map coordinators, James Skinner and Corey Fortezzo, for their
+assistance throughout the mapping and review process, as well
+as two reviewers for their thorough, constructive, and thoughtful feedback that greatly improved the map package. Thanks
+also to Cathy Quantin-Nataf (Universite de Lyon) and Fred
+Calef (Jet Propulsion Laboratory) for discussions, and Nathan
+Williams (Jet Propulsion Laboratory) for assistance with the
+supplemental HiRISE dataset. This research was carried out at
+the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space
+Administration, Planetary Archiving, Restoration, and Tools
+(PDART) program grant 80NM0018F0612.
+
+References Cited
+
+Jezero crater, Mars [abs.]: 49th Lunar and Planetary Science
+Conference 2018, contr. no. 2083, p. 2563.
+Crater Analysis Techniques Working Group, 1979, Standard
+techniques for presentation and analysis of crater sizefrequency data: Icarus, v. 37, no. 2, p. 467–474, https://doi.
+org/10.1016/0019-1035(79)90009-5.
+Day, M., and Dorn, T., 2019, Wind in Jezero crater, Mars: Geophysical Research Letters, v. 46, no. 6, p. 3099–3107, https://
+doi.org/10.1029/2019GL082218.
+Edwards, C.S., Nowicki, K.J., Christensen, P.R., Hill, J., Gorelick, N., and Murray, K., 2011, Mosaicking of global planetary
+image datasets—1. Techniques and data processing for Thermal
+Emission Imaging System (THEMIS) multi-spectral data: Journal of Geophysical Research—Planets, v. 116, no. E10, http://
+doi.org/10.1029/2010JE003755.
+Ehlmann, B.L., and Mustard, J.F., 2012, An in-situ record of major
+environmental transitions on early Mars at Northeast Syrtis
+Major: Geophysical Research Letters, v. 39, no. 11, https://doi.
+org/10.1029/2012GL051594.
+Ehlmann, B.L., Mustard, J.F., Fassett, C.I., Schon, S.C., Head,
+J.W., Des Marais, D.J., and others, 2008b, Clay minerals in delta deposits and organic preservation potential on
+Mars: Nature Geoscience, v. 1, no. 6, p. 355–358, https://doi.
+org/10.1038/ngeo207.
+Ehlmann, B.L., Mustard, J.F., Murchie, S.L., Poulet, F., Bishop,
+J.L., Brown, A.J., and others, 2008a, Orbital identification of
+carbonate-bearing rocks on Mars: Science, v, 322, no. 5909, p.
+1828–1832, https://doi.org/10.1126/science.1164759.
+Ehlmann, B.L., Mustard, J.F., Swayze, G.A., Clark, R.N., Bishop,
+J.L., Poulet, F., and others, 2009, Identification of hydrated
+silicate minerals on Mars using MRO-CRISM—Geologic
+context near Nili Fossae and implications for aqueous alteration: Journal of Geophysical Research—Planets, v. 114, no. E2,
+https://doi.org/10.1029/2009JE003339.
+
+Baker, V.R., 1982, The channels of Mars: Austin, University of
+Texas Press.
+Balme, M., Berman, D.C., Bourke, M.C., and Zimbelman, J.R.,
+2008, Transverse aeolian ridges (TARs) on Mars: Geomorphology, v. 101, no. 4, p. 703–720, https://doi.org/10.1016/j.
+geomorph.2008.03.011.
+Bibring, J.-P., Langevin, Y., Mustard, J.F., Poulet, F., Arvidson, R.,
+Gendrin, A., and others, 2006, Global mineralogical and aqueous Mars history derived from OMEGA/Mars Express data:
+Science, v. 312, no. 5772, p. 400–404, https://doi.org/10.1126/
+science.1122659.
+Bramble, M.S., Mustard, J.F., and Salvatore, M.R., 2017, The geological history of northeast Syrtis Major, Mars: Icarus, v. 293, p.
+66–93, https://doi.org/10.1016/j.icarus.2017.03.030.
+Carr, M.H., and Clow, G.D., 1981, Martian channels and
+valleys—Their characteristics, distribution, and age: Icarus, v. 48, no. 1, p. 91–117, https://doi.org/10.1016/00191035(81)90156-1.
+Caudill, C.M., Tornabene, L.L., McEwen, A.S., Byrne, S., Ojha,
+L., and Mattson, S., 2012, Layered megablocks in the central
+uplifts of impact craters: Icarus, v. 221, no. 2, p. 710–720,
+https://doi.org/10.1016/j.icarus.2012.08.033.
+Christensen, P.R., and others, 2004, The Thermal Emission Imaging System (THEMIS) for the Mars 2001 Odyssey mission:
+Space Science Review, v. 110, p. 85–130.
+Christensen, P.R., Fergason, R.L., Edwards, C.S., and Hill, J.,
+2013, THEMIS-derived thermal inertia mosaic of Mars—
+Product description and science results [abs.]: 44th Lunar and
+Planetary Science Conference, March 18–22, 2013, contr. no.
+1719, p. 2822.
+Cofield, S.M., and Stack, K.M., 2018, Geologic mapping and
+stratigraphic analysis of a candidate Mars 2020 landing site—
+12
+
+Fassett, C.I., and Head, J.W., 2005, Fluvial sedimentary deposits
+on Mars—Ancient deltas in a crater lake in the Nili Fossae
+region: Geophysical Research Letters, v. 32, no. 14., https://doi.
+org/10.1029/2005GL023456.
+Fassett, C.I., and Head, J.W., 2008, The timing of martian valley
+network activity—Constraints from buffered crater counting: Icarus, v. 195, no. 1, p. 61–89, https://doi.org/10.1016/j.
+icarus.2007.12.009.
+Fergason, R.L., Christensen, P.R., and Kieffer, H.H., 2006, Highresolution thermal inertia derived from the Thermal Emission
+Imaging System (THEMIS)—Thermal model and applications:
+Journal of Geophysical Research—Planets, v. 111, E1, https://
+doi.org/10.1029/2006JE002735.
+Fergason, R.L., Hare, T.M., Kirk, R.L., Piqueux, S., Galuzska,
+D.M., Golombek, M.P., Otero, R.E., and Redding, B.L., 2017,
+Mars 2020 landing site evaluation—Slope and physical property assessment [abs.]: Lunar and Planetary Conference 1964,
+contr. 2163.
+Fergason, R.L, Hare, T.M., and Laura, J., 2018, Mars MGS
+MOLA—MEX HRSC blended DEM at global 200m v2: U.S.
+Geological Survey, Astrogeology PDS Annex, http://bit.ly/
+HRSC_MOLA_Blend_v0.
+Golombek, M., Grant, J., Kipp, D., Vasavada, A., Kirk, R.,
+Fergason, R., and others, 2012, Selection of the Mars science
+laboratory landing site: Space Science Reviews, v. 170, no. 1,
+641–737, https://doi.org/10.1007/s11214-012-9916-y.
+Goudge, T.A., Milliken, R.E., Head, J.W., Mustard, J.F., and
+Fassett, C.I., 2017, Sedimentological evidence for a deltaic
+origin of the western fan deposit in Jezero crater, Mars, and
+implications for future exploration: Earth and Planetary Science Letters, v. 458, p. 357–365, https://doi.org/10.1016/j.
+epsl.2016.10.056.
+Goudge, T.A., Mohrig, D., Cardenas, B.T., Hughes, C.M., and
+Fassett, C.I., 2018, Stratigraphy and paleohydrology of delta
+channel deposits, Jezero crater, Mars: Icarus, v. 301, p. 58–75,
+https://doi.org/10.1016/j.icarus.2017.09.034.
+Goudge, T.A., Mustard, J.F., Head, J.W., Fassett, C.I., and Wiseman, S.M., 2015, Assessing the mineralogy of the watershed
+and fan deposits of the Jezero crater paleolake system, Mars:
+Journal of Geophysical Research—Planets, v. 120, no. 4,
+https://doi.org/10.1002/2014JE004782.
+Grant, J.A., Golombek, M.P., Wilson, S.A., Farley, K.A., Williford, K.H., and Chen, A., 2018, The science process for
+selecting the landing site for the 2020 Mars rover: Planetary and
+Space Science, v. 164, p. 106–126, https://doi.org/10.1016/j.
+pss.2018.07.001.
+Greeley, R., and Guest, J.E., 1987, Geologic map of the eastern equatorial region of Mars: U.S. Geological Survey map
+I–1802–B, scale 1:15,000,000, https://doi.org/10.3133/
+i1802B.
+Hamilton, V.E., and Christensen, P.R., 2005, Evidence for extensive, olivine-rich bedrock on Mars: Geology, v. 33, no. 6, p.
+433–436, https://doi.org/10.1130/G21258.1.
+Hartmann W.K., and Neukum G., 2001, Cratering chronology and
+the evolution of Mars, in Kallenbach R., Geiss J., and Hartmann
+W.K., eds., Chronology and evolution of Mars: Springer, Space
+Sciences Series of ISSI, v. 12., https://doi.org/10.1007/978-94017-1035-0_6.
+
+Hiesinger, H., and Head, J.W., 2004, The Syrtis Major volcanic
+province, Mars—Synthesis from Mars Global Surveyor data:
+Journal of Geophysical Research—Planets, v. 109, no. E1,
+https://doi.org/10.1029/2003JE002143.
+Horgan, B.H.N., Anderson, R.B., Dromart, G., Amador, E.S., and
+Rice, M.S., 2020, The mineral diversity of Jezero crater—Evidence for possible lacustrine carbonates on Mars: Icarus, v. 339,
+no. 113526, https://doi.org/10.1016/j.icarus.2019.113526.
+Ivanov, M.A., Hiesinger, H., Erkeling, G., Hielscher, F.J., and
+Reiss, D., 2012, Major episodes of geologic history of Isidis
+Planitia on Mars: Icarus, v. 218, no. 1, p. 24–46, https://doi.
+org/10.1016/j.icarus.2011.11.029.
+Kremer, C.H., Mustard, J.F., and Bramble, M.S., 2019, A widespread olivine-rich ash deposit on Mars: Geology, v. 47, no. 7,
+p. 677–681, https://doi.org/10.1130/G45563.1.
+Malin, M.C., and others, 2007, Context Camera Investigation on board the Mars Reconnaissance Orbiter: Journal of
+Geophysical Research—Planets, v. 112, no. E5, https://doi.
+org/10.1029/2006JE002808.
+Mandon, L., Quantin-Nataf, C., Thollot, P., Mangold, N., Lozac’h,
+L., Dromart, G., Beck, P., Dehouck, E., Breton, S., Millot, C.,
+and Volat, M., 2020, Refining the age, emplacement, and alteration scenarios of the olivine-rich unit in the Nili Fossae region,
+Mars: Icarus, v. 336, p. 113436., https://doi.org/10.1016/j.
+icarus.2019.113436.
+Mangold, N., Dromart, G., Ansan, V., Salese, F., Kleinhans, M.G.,
+Massé, M., Quantin-Nataf, C., and Stack, K.M., 2020, Fluvial
+regimes, morphometry, and age of Jezero crater paleolake
+inlet valleys and their exobiological significance for the 2020
+rover mission landing site: Astrobiology, v. 20, no. 8, http://doi.
+org/10.1089/ast.2019.2132.
+Mangold, N., Poulet, F., Mustard, J.F., Bibring, J.-P., Gondet, B.,
+Langevin, Y., and others, 2007, Mineralogy of the Nili Fossae
+region with OMEGA/Mars Express data—2. Aqueous alteration of the crust: Journal of Geophysical Research—Planets, v.
+112, no. E8, https://doi.org/10.1029/2006JE002835.
+Martin, P.E., Ehlmann, B.L., Thomas, N.H., Wiens, R.C., Hollis,
+J.J.R., Beegle, L.W., and others, 2020, Studies of a lacustrinevolcanic Mars analogic field site with Mars-2020-likeinstruments: Earth and Space Science, v. 7, no. 2, https://doi.
+org/10.1029/2019EA000720.
+McEwen, A.S., Eliason, E.M., Bergstrom, J.W., Bridges, N.T.,
+Hansen, C.J., Delamere, W.A., and others, 2007, Mars Reconnaissance Orbiter’s High Resolution Imaging Science Experiment (HiRISE): Journal of Geophysical Research—Planets, v.
+112, no. E5, https://doi.org/10.1029/2005JE002605.
+Meyer, J.D., and Grolier, M.J., 1977, Geologic map of the Syrtis
+Major quadrangle of Mars: U.S. Geological Survey Geologic
+Investigations Map I–995, https://doi.org/10.3133/i995.
+Murchie, S., Arvidson, R., Bedini, P., Beisser, K., Bibring, J.-P.,
+Bishop, J., and others, 2007, Compact Reconnaissance Imaging Spectrometer for Mars (CRISM) on Mars Reconnaissance
+Orbiter (MRO): Journal of Geophysical Research—Planets, v.
+112, no. E5, https://doi.org/10.1029/2006JE002682.
+Mustard, J.F., Ehlmann, B.L., and Murchie, S.L., 2009, Hydrothermal alteration constrained by mineral assemblages on
+Mars—Evidence from craters near Syrtis Major [abs.]: American Geophysical Union Fall Meeting Abstracts, v. 13, no. 5.
+13
+
+Mustard, J.F., Murchie, S.L., Pelkey, S.M., Ehlmann, B.L., Milliken, R.E., Grant, J.A., and others, 2008, Hydrated silicate
+minerals on Mars observed by the Mars Reconnaissance Orbiter
+CRISM instrument: Nature, v. 454, no. 7202, p. 305–309,
+https://doi.org/10.1038/nature07097.
+Mustard, J.F., Poulet, F., Head, J.W., Mangold, N., Bibring,
+J.-P., Pelkey, S.M., and others, 2007, Mineralogy of the
+Nili Fossae region with OMEGA/Mars Express data—1.
+Ancient impact melt in the Isidis Basin and implications for
+the transition from the Noachian to Hesperian: Journal of
+Geophysical Research—Planets, v. 112, no. E8, https://doi.
+org/10.1029/2006JE002834.
+Neukum, G., Ivanov, B., and Hartmann, W.K., 2001, Cratering
+records in the inner solar system in relation to the Lunar Reference System: Space Science Review, v. 96, p. 165–194, https://
+doi.org/10.1023/A:1011945222010.
+Neumann, G.A., Rowlands, D.D., Lemoine, F.G., Smith,
+D.E., and Zuber, M.T., 2001, Crossover analysis of Mars
+Orbiter Laser Altimeter data: Journal of Geophysical
+Research, v. 106, no. E10, p. 23753–23768, https://doi.
+org/10.1029/2000JE001381.
+Nimmo, F., and Tanaka, K., 2005, Early crustal evolution of
+Mars: Annual Review of Earth and Planetary Sciences,
+v. 33, no. 1, p. 133–161, https://doi.org/10.1146/annurev.
+earth.33.092203.122637.
+Pascuzzo, A.C., Mustard, J.F., Kremer, C.H., and Ebinger, E.,
+2019, The formation of irregular polygonal ridge networks, Nili
+Fossae, Mars—Implications for extensive subsurface channelized fluid flow in the Noachian: Icarus, v. 319, p. 852–868,
+https://doi.org/10.1016/j.icarus.2018.10.020.
+Pieri, D.C., 1980, Martian valleys; morphology, distribution, age,
+and origin: Science, v. 210, no. 4472, p. 895–897, https://doi.
+org/10.1126/science.210.4472.895.
+Pilkington, M., and Grieve, R.A.F., 1992, The geophysical signature of terrestrial impact craters: Reviews of Geophysics, v. 30,
+no. 2, p. 161–181. https://doi.org/10.1029/92RG00192.
+Ruff, S.W., 2017, Investigating the floor of paleolake Jezero by
+way of Gusev crater [abs.]: Fourth Lunar and Planetary Science
+Conference 2017, contr. 3076.
+Salvatore, M.R., Goudge, T.A., Bramble, M.S., Edwards, C.S.,
+Bandfield, J.L., Amador, E.S., and others, 2018, Bulk mineralogy of the NE Syrtis and Jezero crater regions of Mars derived
+through thermal infrared spectral analyses: Icarus, v. 301, p.
+76–96, https://doi.org/10.1016/j.icarus.2017.09.019.
+Saper, L., and Mustard, J.F., 2013, Extensive linear ridge networks
+in Nili Fossae and Nilosyrtis, Mars—Implications for fluid flow
+in the ancient crust: Geophysical Research Letters, v. 40, p.
+245–249, https://doi.org/10.1002/grl.50106.
+Scheller, E.L., and Ehlmann, B.L., 2020, Composition, stratigraphy, and geological history of the Noachian basement surrounding the Isidis impact basin: Journal of Geophysical Research, v.
+125, no. 7, https://doi.org/10.1029/2019JE006190.
+Schon, S.C., Head, J.W., and Fassett, C.I., 2012, An overfilled lacustrine system and progradational delta in Jezero crater, Mars—
+
+Implications for Noachian climate: Planetary and Space Science,
+v. 67, no. 1, p. 28–45, https://doi.org/10.1016/j.pss.2012.02.003.
+Schultz, R.A., and Frey, H.V., 1990, A new survey of multiring
+impact basins on Mars: Journal of Geophysical Research—
+Solid Earth, v. 95, no. B9, 14175–14189, https://doi.
+org/10.1029/JB095iB09p14175.
+Scott, D.H., and Carr, M.H., 1978, Geologic map of Mars: U.S.
+Geological Survey Miscellaneous Investigations Series Map
+I–1083, scale 1:25,000,000, https://doi.org/10.3133/i1083.
+Shahrzad, S., Kinch, K.M., Goudge, T.A., Fassett, C.I., Needham, D.H., Quantin-Nataf, C., and Knudsen, C.P., 2019, Crater
+Statistics on the dark-toned, mafic floor unit in Jezero Crater,
+Mars: Geophysical Research Letters, v. 46, no. 5, p. 2408–2416,
+https://doi.org/10.1029/2018GL081402.
+Smith, M.R., Gillespie, A.R., and Montgomery, D.R., 2008, Effect
+of obliteration on crater-count chronologies for Martian surfaces: Geophysical Research Letters, v. 35, no. 10, https://doi.
+org/10.1029/2008GL033538.
+Squyres, S.W., and Kasting, J.F., 1994, Early Mars—How warm
+and how wet?: Science, v. 265, no. 5173, p. 744–749, https://
+doi.org/10.1126/science.265.5173.744.
+Stack, K.M., and others, 2020, Geologic map of the Perseverance
+landing site by the Mars 2020 Science Team [abs.]: Planetary
+Geologic Mappers Meeting 2020, contr. 2357, p. 7017.
+Sun, V.Z., and Stack, K.M., 2018, Geomorphic mapping of the
+basement unit within the northeast Syrtis Major Mars 2020
+landing ellipse [abs.]: 49th Lunar and Planetary Science Conference 2018, contr. 2083, p. 2179.
+Sun, V.Z., and Stack, K.M., 2019, Understanding the continuity
+of regional units in the Mars 2020 Jezero and Northeast Syrtis
+regions—Implications for the origin of the mafic unit(s) [abs.]:
+50th Lunar and Planetary Science Conference 2019, contr.
+2132, p. 2271.
+Tanaka, K.L., Robbins, S.J., Fortezzo, C.M., Skinner, J.A. Jr., and
+Hare, T.M., 2014, The digital global geologic map of Mars—
+Chronostratigraphic ages, topographic and crater morphologic
+characteristics, and updated resurfacing history: Planetary
+and Space Science, v. 95, p. 11–24, https://doi.org/10.1016/j.
+pss.2013.03.006.
+U.S. Geological Survey, 2006, FGDC digital cartographic standard for geologic map symbolization (postscript implementation): U.S. Geological Survey Techniques and Methods 11–A2,
+https://pubs.usgs.gov/tm/2006/11A02/.
+Warner, N.H., Gupta, S., Calef, F., Grindrod, P., Boll, N., and
+Goddard, K., 2015, Minimum effective area for high resolution
+crater counting of martian terrains: Icarus, v. 245, p. 198–240,
+https://doi.org/10.1016/j.icarus.2014.09.024.
+Werner, S., 2009, The global martian volcanic evolutionary history: Icarus, v. 201, no. 1, p. 44–68, https://doi.org/10.1016/j.
+icarus.2008.12.019.
+Werner, S.C., and Tanaka, K.L., 2011, Redefinition of the craterdensity and absolute-age boundaries for the chronostratigraphic
+system of Mars: Icarus, v. 215, no. 2, p. 603–607, https://doi.
+org/10.1016/j.icarus.2011.07.024.
+
+14
+
+

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "USGS-SIM3464",
+    "status": "VERIFIED_SOURCE",
+    "institution": "USGS",
+    "title": "Geologic map of Jezero crater and the Nili Planum region, Mars",
+    "url": "https://pubs.usgs.gov/publication/sim3464",
+    "accessed": "2026-11-11",
+    "locator": "Pamphlet front matter and Base Map and Data (p. 3); GIS readme, metadata and raster CRS",
+    "instrument": "Mars Odyssey THEMIS (displayed raster); MRO CTX (geology mapping base)",
+    "acquisitionDate": null,
+    "claims": [
+      "The published region spans 76.8–77.8° E and 17.7–18.7° N.",
+      "The GIS contains Mars Transverse Mercator rasters and matching geologic vectors on a 3,396,190 m sphere.",
+      "The included THEMIS daytime infrared raster has 100 m pixels, confirmed from its affine transform.",
+      "Jezero fan 1 and fan 2 unit polygons come directly from GeoUnits_v1."
+    ],
+    "terms": "USGS pamphlet states product is mostly public domain, except items marked copyrighted. No copyright exception found for included GIS raster or vectors. Metadata: access constraints None; use requires GIS software. Attribute Sun and Stack (2020), USGS, NASA/THEMIS. No NASA endorsement.",
+    "caveat": "Geologic mapping reports random 100–200 m offsets from the later mission operations CTX mosaic. Regional display cannot resolve strata or validate traversability.",
+    "files": [
+      "data/raw/sim3464_readme.txt",
+      "data/raw/sim3464_metadata.txt",
+      "data/raw/themis-day.tif",
+      "public/data/map-metadata.json"
+    ],
+    "additionalUrls": [
+      "https://pubs.usgs.gov/sim/3464/sim3464_pamphlet.pdf",
+      "https://pubs.usgs.gov/sim/3464/sim3464_database.zip"
+    ]
+  },
+  {
+    "id": "NASA-JEZERO-2021",
+    "status": "VERIFIED_SOURCE",
+    "institution": "NASA / JPL",
+    "title": "NASA’s Perseverance Sheds More Light on Jezero Crater’s Watery Past",
+    "url": "https://www.nasa.gov/solar-system/nasas-perseverance-sheds-more-light-on-jezero-craters-watery-past/",
+    "accessed": "2026-11-11",
+    "locator": "“Perseverance’s Kodiak Moment” and “The Big Picture” sections; scarp mosaic caption",
+    "instrument": "Mastcam-Z and SuperCam Remote Micro-Imager (RMI)",
+    "acquisitionDate": "2021-04-17 for the scarp mosaic caption only; not a universal acquisition date",
+    "claims": [
+      "Inclined and horizontal layering on Kodiak’s eastern face supports the ancient river-delta/lake interpretation.",
+      "Stones and boulders occur in higher scarp deposits; the science team interprets later energetic flooding."
+    ],
+    "terms": "Text used as attributed supporting evidence. No image redistributed from this page.",
+    "caveat": "NASA report of research, not an independently reproduced sedimentological analysis. No claim of biosignature detection, accessible samples, or EVA reachability.",
+    "files": [
+      "data/evidence/nasa-jezero-2021.txt"
+    ]
+  },
+  {
+    "id": "NASA-DELTA-IMAGE",
+    "status": "VERIFIED_SOURCE",
+    "institution": "NASA",
+    "title": "Perseverance View of the Delta in Jezero Crater",
+    "url": "https://science.nasa.gov/resource/perseverance-view-of-the-delta-in-jezero-crater/",
+    "accessed": "2026-11-11",
+    "locator": "Image description",
+    "instrument": "Mastcam-Z",
+    "acquisitionDate": "2021-02-22",
+    "claims": [
+      "Mastcam-Z photographed a delta remnant; NASA describes it as evidence of an ancient river meeting a lake."
+    ],
+    "terms": "Source link only; image not redistributed.",
+    "caveat": "Surface perspective image is not a georeferenced orbital map.",
+    "files": [
+      "data/evidence/nasa-delta-image.txt"
+    ]
+  },
+  {
+    "id": "JPL-KODIAK-IMAGE",
+    "status": "UNVERIFIED",
+    "institution": "NASA/JPL",
+    "title": "Perseverance Captures Image of Kodiak",
+    "url": "https://www.jpl.nasa.gov/images/pia24802-perseverance-captures-image-of-kodiak/",
+    "accessed": "2026-11-11",
+    "locator": null,
+    "instrument": null,
+    "acquisitionDate": null,
+    "claims": [],
+    "terms": "Not verified; asset excluded.",
+    "caveat": "HTTP 403 from CloudFront. Do not treat the proposed URL as evidence.",
+    "files": []
+  }
+]

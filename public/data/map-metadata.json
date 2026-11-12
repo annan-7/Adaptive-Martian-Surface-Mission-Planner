@@ -1,0 +1,130 @@
+{
+  "sourceId": "USGS-SIM3464",
+  "evidenceType": "VERIFIED_SOURCE",
+  "radiusMeters": 3396190.0,
+  "sourceCRS": "PROJCS[\"MTM_clon77_5E\",GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere\",3396190,0],AUTHORITY[\"ESRI\",\"106971\"]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",77.5],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "displayCRS": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"unknown\",ELLIPSOID[\"unknown\",3396190,0,LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]],PRIMEM[\"Reference meridian\",0,ANGLEUNIT[\"degree\",0.0174532925199433,ID[\"EPSG\",9122]]]],CONVERSION[\"unknown\",METHOD[\"Mercator (variant A)\",ID[\"EPSG\",9804]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",1,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+  "sourceResolutionMeters": [
+    100.0,
+    100.0
+  ],
+  "sourceShape": [
+    565,
+    594
+  ],
+  "sourceTransform": [
+    100.0,
+    0.0,
+    -39528.90637077264,
+    0.0,
+    -100.0,
+    1108513.8212198
+  ],
+  "outputTransform": [
+    105.26590048668936,
+    0.0,
+    4552057.9730165135,
+    0.0,
+    -105.26590048668936,
+    1128737.7014626358
+  ],
+  "outputShape": [
+    567,
+    595
+  ],
+  "corners": [
+    [
+      76.7959713539945,
+      18.701298657184527
+    ],
+    [
+      77.80290632068049,
+      18.701298657184527
+    ],
+    [
+      77.80290632068049,
+      17.69751323736351
+    ],
+    [
+      76.7959713539945,
+      17.69751323736351
+    ]
+  ],
+  "controls": [
+    {
+      "sourcePixel": [
+        0,
+        0
+      ],
+      "sourceXY": [
+        -39528.90637077264,
+        1108513.8212198
+      ],
+      "lonlat": [
+        76.7959713539945,
+        18.699985008967445
+      ],
+      "outputPixel": [
+        0.0,
+        0.7809369326059823
+      ]
+    },
+    {
+      "sourcePixel": [
+        282.5,
+        297.0
+      ],
+      "sourceXY": [
+        -11278.906370772638,
+        1078813.8212198
+      ],
+      "lonlat": [
+        77.2996974639288,
+        18.200137807416517
+      ],
+      "outputPixel": [
+        283.64563132885087,
+        297.4945904671913
+      ]
+    },
+    {
+      "sourcePixel": [
+        565,
+        594
+      ],
+      "sourceXY": [
+        16971.09362922736,
+        1049113.8212198
+      ],
+      "lonlat": [
+        77.80053684950202,
+        17.698956440287503
+      ],
+      "outputPixel": [
+        565.6657627328022,
+        594.1469663545104
+      ]
+    },
+    {
+      "sourcePixel": [
+        100,
+        200
+      ],
+      "sourceXY": [
+        -29528.90637077264,
+        1088513.8212198
+      ],
+      "lonlat": [
+        76.97510684740796,
+        18.36316765935493
+      ],
+      "outputPixel": [
+        100.87029264630837,
+        200.81337556667495
+      ]
+    }
+  ],
+  "sourceSHA256": "81db7210842dcd6e8049787b9ea20967c5ee9eff4984aefe6a13a70bd7bedbe9",
+  "caveat": "Regional 100 m imagery. Geologic source reports 100\u2013200 m offsets from mission operations CTX. Not navigation data.",
+  "overlayFeatureCount": 25
+}

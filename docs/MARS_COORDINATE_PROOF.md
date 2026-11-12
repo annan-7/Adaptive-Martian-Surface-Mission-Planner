@@ -1,0 +1,13 @@
+# Mars coordinate proof of concept
+
+Source: USGS SIM 3464 GIS database, checked 2026-11-11. The source readme and metadata are retained in `data/raw/`. Raster input: `nili_THEMIS_DayIR_Controlled_oct2018.tif`, a 565 × 594 pixel, 100 m/pixel Mars Odyssey THEMIS daytime infrared regional mosaic. Acquisition dates for the constituent mosaic images are not established here. October 2018 is the product filename label, not an acquisition date.
+
+The GeoTIFF and geodatabase declare Mars Transverse Mercator: central meridian 77.5° E, latitude of origin 0°, scale 1, false easting/northing 0, spherical axes 3,396,190 m. The geographic output uses east-positive longitude and north-positive latitude on that same sphere. A sphere has no planetographic/planetocentric latitude difference. No Earth ellipsoid conversion is performed.
+
+`process_geodata.py` uses Rasterio's bundled GDAL to warp the raster into custom spherical Mars Mercator, using bilinear resampling. PyProj transforms the USGS MapBoundary and Jezero fan 1/2 polygon vertices from the source Mars CRS to angular coordinates. The image is supplied to MapLibre as a four-corner image source, after reprojection, not as a naive four-corner warp of the original transverse Mercator image. GeoJSON is explicitly Mars angular data in the app contract; it must not be treated as terrestrial RFC 7946 WGS84 outside this application.
+
+MapLibre's normalized Mercator equations are x=(longitude+180)/360 and y=(1-asinh(tan(latitude))/pi)/2. The radius cancels in normalized coordinates. Therefore MapLibre can render these Mars angular coordinates consistently with the pre-warped raster. Earth-based distance APIs, scale bars, geolocation, Earth basemaps, globe mode and terrain are not used. This validates display alignment, not terrain navigation.
+
+Automated checks compare four source pixel control points through independent normalized Mercator calculations against the output affine transform (tolerance 0.000001 pixel), verify source-to-geographic round trips (0.000001 m), verify Mars radius and 100 m input resolution, check polygon coordinates against the published footprint, and reproduce the offline raster byte-for-byte. The controls verify mathematical registration, not surveyed ground truth. Original 100–200 m map offsets relative to later operations CTX remain. The map is regional and cannot resolve Kodiak strata.
+
+`public/data/map-metadata.json` records the exact CRS WKT, transformations, corner coordinates, control points, input SHA-256 and output dimensions. `tests/e2e/map.spec.ts` checks actual WebGL map loading in Chromium. The full interface is built only after the initial map proof renders successfully.
