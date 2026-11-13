@@ -1,6 +1,6 @@
 # Evidence register
 
-All listed access attempts occurred on 2026-11-11. VERIFIED_SOURCE applies to inspected source claims, not EVA suitability. Scientific interpretations remain separately labeled in the app.
+Initial asset verification was recorded on 2026-11-11; review access attempts below are dated 2026-11-12 (America/Santiago). VERIFIED_SOURCE applies to inspected source claims, not EVA suitability. Scientific interpretations remain separately labeled in the app.
 
 ## USGS-SIM3464 — VERIFIED_SOURCE
 
@@ -27,7 +27,7 @@ Caveat: Geologic mapping reports random 100–200 m offsets from the later missi
 
 URL: https://www.nasa.gov/solar-system/nasas-perseverance-sheds-more-light-on-jezero-craters-watery-past/
 
-Locator: “Perseverance’s Kodiak Moment” and “The Big Picture” sections; scarp mosaic caption
+Locator: “Perseverance’s Kodiak Moment” and “Moving Boulders” sections; scarp mosaic caption
 
 Instrument: Mastcam-Z and SuperCam Remote Micro-Imager (RMI). Acquisition date: 2021-04-17 for the scarp mosaic caption only; not a universal acquisition date.
 
@@ -89,3 +89,11 @@ The proposed NASA Science watery-past URL returned a “Page not found” page. 
 ## Simulated and derived values
 
 All data in `data/scenarios/` and all schematic positions, mission deadlines, reserves, travel/science/return times and recommendations are SIMULATED_SCENARIO. Option totals and margins are DERIVED_FROM_SIMULATION. They are not NASA measurements or standards. Science-card EVA activities are hypothetical. The source texts support geology only, never route safety.
+
+## Review — 2026-11-12
+
+Reopened the two NASA pages and inspected the Kodiak strata, upper-scarp boulders, interpretation, instrument and acquisition passages. Corrected the NASA article section locator to “Moving Boulders.” No new scientific or image asset was invented.
+
+Opened https://www.usgs.gov/maps/geologic-map-jezero-crater-and-nili-planum-region-mars and inspected its map scope, authors and mapping-base description. Its abstract has malformed latitude/longitude labels; use the retained GIS metadata bounding coordinates, not that typo. Original publication/PDF/readme/metadata URLs returned HTTP 403 in this review. Inspected the retained source readme, metadata, pamphlet front matter and processing metadata. Preserved the previous GIS verification date: no claim of re-downloading or independently re-extracting the GIS archive this turn.
+
+Technical reference (not a science source): https://maplibre.org/maplibre-gl-js/docs/ — inspected ESM → Vite installation. It prescribes a self-contained worker import with `?worker&url`, `setWorkerUrl`, and the packaged stylesheet. The integration follows that pattern. No Earth basemap or meter scale was introduced.

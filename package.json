@@ -10,7 +10,9 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "verify:build": "node scripts/verify_build.mjs",
+    "facilitator": "python3 -m http.server 4174 --bind 127.0.0.1 --directory facilitator"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",

@@ -13,6 +13,8 @@ import {
 } from "lucide-react";
 import { Button } from "./components/ui/button";
 import { ScienceMap } from "./ScienceMap";
+import { SessionSetup } from "./SessionSetup";
+import { controlledTime } from "./sessionControl";
 import { useMission } from "./store";
 import { project, participantExport, type Knowledge } from "./knowledge";
 import { clock, variants } from "./scenario";
@@ -35,8 +37,10 @@ function ScienceCard({ id }: { id: string }) {
       <p className="question">{card.question}</p>
       <Tag>{card.evidenceType}</Tag>
       <h3>Reported observation</h3>
+      <Tag>VERIFIED_SOURCE</Tag>
       <p>{card.observation}</p>
       <h3>Scientific interpretation</h3>
+      <Tag>SCIENTIFIC_INTERPRETATION</Tag>
       <p>{card.interpretation}</p>
       <h3>Uncertainty</h3>
       <p>{card.uncertainty}</p>
@@ -115,6 +119,26 @@ function Messages({ view }: { view: Knowledge }) {
       ))}
     </section>
   );
+}
+function Brief({ view }: { view: Knowledge }) {
+  const s = variants[view.variant];
+  return <section>
+    <h2>Mission brief</h2>
+    <Tag>SIMULATED_SCENARIO</Tag>
+    <p>Compare two science questions using real Jezero evidence: S1 studies delta deposition; S2 studies later energetic flooding. The separate schematic represents fictional work, not real reachable sites.</p>
+    <dl className="facts">
+      <dt>Your perspective</dt><dd>{view.role === "mars" ? "Astronaut" : "Earth Planner"}</dd>
+      <dt>Decision checkpoint</dt><dd>{clock(s.checkpoint)} · synchronized fictional clock</dd>
+      <dt>Return deadline</dt><dd>{clock(s.deadline)}</dd>
+      <dt>Time available</dt><dd>{s.deadline - s.checkpoint} minutes at checkpoint</dd>
+      <dt>Required reserve</dt><dd>{s.reserve} minutes · fictional rule</dd>
+      <dt>Original S2 plan</dt><dd>{s.originalTravel} travel + {s.s2Science} science + {s.s2Return} return + {s.reserve} reserve</dd>
+      <dt>Known S2 travel now</dt><dd>{view.travel} minutes</dd>
+      <dt>Communication</dt><dd>20 minutes each way · fixed simulation</dd>
+    </dl>
+    <p>Read the source cards, inspect locally available messages, then compare Options and Advice. The history reconstructs knowledge at the selected time. A message receipt never establishes acknowledgment.</p>
+    <p className="caution">Options always analyze the 14:25 checkpoint. No crew progress, physical route feasibility or life-support state is inferred from advancing the clock.</p>
+  </section>;
 }
 function Options({ view }: { view: Knowledge }) {
   const s = variants[view.variant];
@@ -241,13 +265,13 @@ function Inspector({ view }: { view: Knowledge }) {
           <p>{view.observation.text}</p>
           <dl className="facts">
             <dt>Old / new travel</dt>
-            <dd>20 / {view.travel} minutes</dd>
+            <dd>{variants[view.variant].originalTravel} / {view.travel} minutes</dd>
             <dt>Observer</dt>
             <dd>Astronaut</dd>
             <dt>Observed and sent</dt>
-            <dd>14:20</dd>
+            <dd>{clock(view.observation.created)} / {clock(view.observation.sent)}</dd>
             <dt>Local receipt</dt>
-            <dd>{view.role === "mars" ? "Local observation" : "14:40"}</dd>
+            <dd>{view.observation.receivedAt === null ? "Local observation" : clock(view.observation.receivedAt)}</dd>
             <dt>Affected objective</dt>
             <dd>S2 · Later energetic flooding</dd>
           </dl>
@@ -289,6 +313,8 @@ function Study() {
             setStarted(null);
             setAnswer("");
             setStatus("");
+            setWorkload("");
+            setConfidence("");
           }}
         >
           {tasks.map((_, i) => (
@@ -301,6 +327,7 @@ function Study() {
       <p className="question">{tasks[task]}</p>
       <Button
         variant="outline"
+        disabled={started !== null}
         onClick={() => {
           setStarted(performance.now());
           state.log("task-start", String(task + 1));
@@ -358,6 +385,8 @@ function Study() {
           setStatus("Entry saved in this session. Export before closing.");
           setAnswer("");
           setStarted(null);
+          setWorkload("");
+          setConfidence("");
         }}
       >
         Save real entry
@@ -367,6 +396,12 @@ function Study() {
         Entries stay in memory until exported. Refreshing clears them.
         Facilitator scores correctness separately.
       </p>
+      <h3>Local session log</h3>
+      <p className="muted">Participant: {state.participant || "Not assigned"} · Session: {state.sessionId}</p>
+      {state.records.filter(r => r.scenarioTime <= state.time).length === 0
+        ? <p>No local entries yet.</p>
+        : <ol className="session-log">{state.records.filter(r => r.scenarioTime <= state.time).map((r, i) =>
+          <li key={i}><b>{clock(r.scenarioTime)} · {r.type}</b><small>{r.at}</small><p>{r.value}</p></li>)}</ol>}
     </section>
   );
 }
@@ -403,6 +438,7 @@ function Provenance() {
             <b>Terms:</b> {s.terms}
           </p>
           <p className="caution">{s.caveat}</p>
+          {"verificationNote" in s && <p>{s.verificationNote}</p>}
         </article>
       ))}
     </section>
@@ -416,20 +452,30 @@ export default function App() {
   const mode = conditions[condition];
   const [playing, setPlaying] = useState(false);
   useEffect(() => {
+    if (!state.facilitatorOrigin) return;
+    const receive = (event: MessageEvent) => {
+      if (event.origin !== state.facilitatorOrigin || !window.opener || event.source !== window.opener) return;
+      const next = controlledTime(event.data, state.sessionId);
+      if (next !== null) { setPlaying(false); state.release(next); }
+    };
+    window.addEventListener("message", receive);
+    return () => window.removeEventListener("message", receive);
+  }, [state.facilitatorOrigin, state.sessionId, state.release]);
+  useEffect(() => {
     if (!playing) return;
     const timer = setInterval(() => {
       const s = useMission.getState();
-      if (s.time >= 905) {
+      if (s.time >= s.releasedTime) {
         setPlaying(false);
         return;
       }
-      s.set({ time: Math.min(905, s.time + 1) });
+      s.set({ time: Math.min(s.releasedTime, s.time + 1) });
     }, 1000);
     return () => clearInterval(timer);
   }, [playing]);
   const select = (id: string) => state.set({ selected: id, tab: "science" });
   const exportSession = () => {
-    const data = participantExport(view, condition, state.records);
+    const data = { ...participantExport(view, condition, state.records), participant: state.participant || null, sessionId: state.sessionId };
     const url = URL.createObjectURL(
       new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }),
     );
@@ -440,6 +486,7 @@ export default function App() {
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   };
   const tabs = [
+    ["brief", "Brief"],
     ["science", "Science"],
     ["messages", "Messages"],
     ["options", "Options"],
@@ -475,6 +522,7 @@ export default function App() {
           </Button>
         </div>
       </header>
+      {!state.facilitatorOrigin && <SessionSetup />}
       <div className="mission-strip">
         <div>
           <span className="eyebrow">JEZERO FIELD STUDY</span>
@@ -497,7 +545,7 @@ export default function App() {
       </div>
       <main className="workspace">
         <div className="spatial-column">
-          <ScienceMap onSelect={() => select("S1")} />
+          <ScienceMap onSelect={select} onInspectSource={() => state.set({ tab: "sources" })} />
           <section className="route-panel">
             <div className="row">
               <div>
@@ -567,6 +615,7 @@ export default function App() {
               <Button
                 variant="outline"
                 size="sm"
+                disabled={time >= state.releasedTime && !playing}
                 onClick={() => setPlaying(!playing)}
               >
                 {playing ? (
@@ -584,7 +633,7 @@ export default function App() {
               id="scenario-clock"
               type="range"
               min="840"
-              max="905"
+              max={state.releasedTime}
               step="1"
               value={time}
               onChange={(e) => {
@@ -596,6 +645,7 @@ export default function App() {
               {[840, 860, 865, 880, 885, 905].map((t) => (
                 <button
                   key={t}
+                  disabled={t > state.releasedTime}
                   aria-pressed={time === t}
                   onClick={() => {
                     setPlaying(false);
@@ -607,8 +657,9 @@ export default function App() {
               ))}
             </div>
             <p className="muted">
-              Historical knowledge view · advance only on facilitator cue during
-              a study.
+              {state.facilitatorOrigin
+                ? `Facilitated session · phases released through ${clock(state.releasedTime)}. Historical inspection remains available.`
+                : "Historical knowledge view · advance only on facilitator cue during a study."}
             </p>
           </section>
           {mode.timeline && (
@@ -641,6 +692,7 @@ export default function App() {
             ))}
           </nav>
           <div className="detail-body">
+            {tab === "brief" && <Brief view={view} />}
             {tab === "science" && (
               <>
                 <div className="site-switch">

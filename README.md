@@ -4,7 +4,7 @@ A runnable Jezero science and delayed-communication prototype. **SIMULATED EVA �
 
 ## Requirements
 
-- Node.js 22.12+ (tested with 24.19.0), npm, Python 3.12+ (processing tested with 3.12.14).
+- Node.js 22.12+ (review checks run with 24.22.1), npm, Python 3.12+ for the local facilitator server and optional geodata reproduction. Current geodata reproduction is pending; see the implementation report.
 - WebGL-capable browser. Internet for initial dependency installation and optional source downloads; map assets and scenarios are local afterward.
 - Python processing wheels bundle GDAL through Rasterio/Fiona; no separate GDAL CLI needed. `uv` is optional.
 
@@ -17,7 +17,7 @@ npm run dev
 
 Open http://localhost:5173. Default: Astronaut, condition C, primary variant. Example Earth baseline: http://localhost:5173/?role=earth&condition=A&variant=canonical
 
-Allowed URL values: `role=mars|earth`, `condition=A|B|C`, `variant=primary|canonical`. Optional `time=840..905` selects an initial fictional clock minute (840 = 14:00). Role/condition/variant are fixed per session. Refresh clears in-memory notes; export first.
+Allowed URL values: `role=mars|earth`, `condition=A|B|C`, `variant=primary|canonical`. Optional `time=840..905` selects an initial fictional clock minute (840 = 14:00). Role/condition/variant are fixed per session. Use **Explore roles and study modes** to open an independent demo tab without discarding current notes. The **Brief** tab explains science goals and checkpoint inputs. Refresh clears in-memory notes; export first.
 
 ## Production participant and private facilitator servers
 
@@ -32,16 +32,16 @@ In another terminal:
 python3 -m http.server 4174 --bind 127.0.0.1 --directory facilitator
 ```
 
-Open http://localhost:4174 privately. Select condition, role and variant, then open a participant session. The answer key stays in the separately served facilitator directory; it is not included in `dist`. Use production servers for studies, not the repository-wide Vite development server. This is supervised separation, not adversarial access control.
+Open http://localhost:4174 privately. Select condition, role, variant and an anonymous participant code, then open a participant session. Keep the facilitator console open. Choose a time and click **Apply time to open session** to release a phase. Participants can rewind within released phases, but future clock buttons and demo mode switching are disabled. Commands require the expected opener, origin and session ID. Check the participant clock after each command; sending does not establish receipt. `sessionId` and anonymous participant code join both JSON exports. Export before opening another session. `npm run facilitator` starts the same private server. The answer key stays in the separately served facilitator directory; it is not included in `dist`. Use production servers for studies, not the repository-wide Vite development server. This is supervised separation, not adversarial access control.
 
 ## Demo workflow
 
-1. Inspect real THEMIS imagery, toggle source layers and select a Jezero fan polygon. Read S1/S2 evidence and caveats.
+1. Inspect real THEMIS imagery, toggle source layers and select a Jezero fan polygon. **Reset map extent** uses the verified raster footprint; **Explore S1/S2** and **Layer provenance and uncertainty** open the evidence panels. Read S1/S2 evidence and caveats.
 2. Inspect the separately labeled schematic. Advance Astronaut time to 14:20/14:25. Select S1–S2, compare Options and inspect Advice.
 3. Open an Earth session at 14:25: only the original plan is known. Advance to 14:40 for O-01 and 14:45 for R-02.
 4. Astronaut does not see R-02 until 15:05. No receipt implies acknowledgment. Rewind to inspect historical knowledge.
 5. Compare A/B/C using identical role/variant inputs. A includes raw messages; B adds chronology; C adds assumption-dependency reasoning.
-6. In Notebook, start a task timer, enter real observations and save. Export before closing. No human results are prefilled.
+6. In Notebook, start a task timer, enter real observations and save. Review the local session log; future entries are omitted when rewinding. Export before closing. No human results are prefilled.
 
 Budgets always refer to the fixed 14:25 checkpoint. Canonical S2: original −5 min, updated −20 min. Primary variant reduces only S2 science duration from 25 to 15 minutes: original +5 min, updated −10 min. Positive margins do not certify safety.
 
@@ -52,6 +52,7 @@ npm run lint
 npm run typecheck
 npm test
 npm run build
+npm run verify:build
 npx playwright install chromium
 npm run test:e2e
 python3.12 -m venv .venv
@@ -90,3 +91,11 @@ See [Mars coordinate proof](docs/MARS_COORDINATE_PROOF.md) for the explicit 3,39
 USGS source: Sun, V.Z., and Stack, K.M. (2020), SIM 3464. Imagery: NASA/Mars Odyssey THEMIS, distributed in the USGS GIS product. Map source warns of positional offsets; this is regional science context, not navigation. No human pilot has been completed and the comparative research hypothesis remains unproven.
 
 End-to-end tests build production assets and start isolated participant/facilitator servers. Stop existing servers on ports 4173/4174 first.
+
+## MapLibre integration and current verification
+
+MapLibre GL JS 6 uses named ESM exports, its packaged CSS and Vite’s `maplibre-gl-worker.mjs?worker&url` with `setWorkerUrl`. The worker is bundled into a local hashed JavaScript asset; no CDN or guessed tile endpoint is required. See https://maplibre.org/maplibre-gl-js/docs/ (ESM → Vite).
+
+The map validates the Mars metadata before adding sources, derives its view from the raster footprint, follows container resizes and removes its worker/map handlers on unmount. Failed metadata, assets, workers or WebGL show an explicit static-image/source-linked fallback and a retry control. Layers are disabled until ready. Geographic units are scientific interpretations; neither the map nor its fallback contains a fictional EVA route.
+
+Current review: TypeScript logic/render tests, lint, typecheck, build and asset checks are executable here. Browser test startup is blocked by socket permissions; Python geodata packages cannot be installed due to DNS restrictions. **Do not interpret previously recorded browser passes as validation of this revision.** Run the commands above on your machine before a human pilot; consult `docs/IMPLEMENTATION_REPORT.md` for actual results.

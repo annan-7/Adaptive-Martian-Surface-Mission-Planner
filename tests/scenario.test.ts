@@ -85,20 +85,55 @@ describe("local knowledge and exports", () => {
         condition,
         [],
       );
-      return rest;
+      return { ...rest, recommendations: rest.recommendations.map(r => {
+        const { status: _status, reason: _reason, ...facts } = r as typeof r & { status?: string; reason?: string };
+        return facts;
+      }) };
     });
     expect(exports[0]).toEqual(exports[1]);
     expect(exports[1]).toEqual(exports[2]);
   });
 });
+it("A/B exports do not add C's automatic dependency explanations", () => {
+  for (const condition of ["A", "B"] as const) {
+    const exported = participantExport(project("mars", 865, "primary"), condition, []);
+    expect(exported.recommendations[0]).not.toHaveProperty("reason");
+    expect(exported.recommendations[0]).not.toHaveProperty("status");
+  }
+  expect(participantExport(project("mars", 865, "primary"), "C", []).recommendations[0]).toHaveProperty("status", "requires_review");
+});
 it("historical export excludes records entered at future scenario times", () => {
   const records = [
-    { scenarioTime: 865, value: "checkpoint entry" },
-    { scenarioTime: 905, value: "later knowledge" },
+    { scenarioTime: 865, value: "checkpoint entry", role: "earth" as const, condition: "C" as const, variant: "primary" as const },
+    { scenarioTime: 905, value: "later knowledge", role: "earth" as const, condition: "C" as const, variant: "primary" as const },
   ];
   expect(
     participantExport(project("earth", 865, "primary"), "C", records).records,
   ).toEqual([records[0]]);
+});
+it("exports reject records from another role, condition or variant", () => {
+  const base = { scenarioTime: 865, role: "earth" as const, condition: "C" as const, variant: "primary" as const };
+  expect(participantExport(project("earth", 865, "primary"), "C", [
+    base, { ...base, role: "mars" }, { ...base, condition: "A" }, { ...base, variant: "canonical" },
+  ]).records).toEqual([base]);
+});
+it("rejects invalid clock inputs rather than inventing initial knowledge", () => {
+  for (const time of [839, NaN, Infinity, 865.5])
+    expect(() => project("earth", time, "primary")).toThrow();
+});
+it("all variants keep exact budget components in every role's view", () => {
+  for (const variant of ["primary", "canonical"] as const) {
+    for (const role of ["earth", "mars"] as const) {
+      for (const time of [840, 860, 865, 880, 885, 905]) {
+        const view = project(role, time, variant);
+        expect(view.options).toEqual(options(variants[variant], view.travel));
+        for (const message of view.messages) {
+          expect(message.created).toBeLessThanOrEqual(time);
+          expect(message.cutoff).toBeLessThanOrEqual(message.created);
+        }
+      }
+    }
+  }
 });
 it("all noninitial transmissions have exactly twenty minutes delay", () => {
   for (const message of project("earth", 905, "primary").messages)

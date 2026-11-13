@@ -7,7 +7,7 @@ for (const condition of ["A", "B", "C"]) {
     page.on("pageerror", (e) => errors.push(e.message));
     await page.goto(`/?role=earth&condition=${condition}&variant=canonical`);
     await page.getByRole("button", { name: "14:25", exact: true }).click();
-    for (const tab of ["Science", "Messages", "Options", "Advice", "Sources"]) {
+    for (const tab of ["Brief", "Science", "Messages", "Options", "Advice", "Notebook", "Sources"]) {
       await page.getByRole("button", { name: tab, exact: true }).click();
       await expect(page.locator("body")).not.toContainText("loose terrain");
       await expect(page.locator("body")).not.toContainText("O-01");

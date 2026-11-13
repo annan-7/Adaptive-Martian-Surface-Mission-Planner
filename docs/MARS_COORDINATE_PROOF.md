@@ -11,3 +11,7 @@ MapLibre's normalized Mercator equations are x=(longitude+180)/360 and y=(1-asin
 Automated checks compare four source pixel control points through independent normalized Mercator calculations against the output affine transform (tolerance 0.000001 pixel), verify source-to-geographic round trips (0.000001 m), verify Mars radius and 100 m input resolution, check polygon coordinates against the published footprint, and reproduce the offline raster byte-for-byte. The controls verify mathematical registration, not surveyed ground truth. Original 100–200 m map offsets relative to later operations CTX remain. The map is regional and cannot resolve Kodiak strata.
 
 `public/data/map-metadata.json` records the exact CRS WKT, transformations, corner coordinates, control points, input SHA-256 and output dimensions. `tests/e2e/map.spec.ts` checks actual WebGL map loading in Chromium. The full interface is built only after the initial map proof renders successfully.
+
+## Current revision check
+
+`tests/map.test.ts` now compares the actual installed MapLibre `MercatorCoordinate.fromLngLat` against all four retained raster control points, within 0.000001 output pixel. This supplements the earlier independent Python equations. The current TypeScript check passed; Python reprojection and browser WebGL checks remain blocked in this environment, as recorded in IMPLEMENTATION_REPORT.md. Previous browser-rendering statements above describe the earlier implementation only.

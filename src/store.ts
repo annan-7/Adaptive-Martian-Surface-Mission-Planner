@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import type { Role, Condition } from "./knowledge";
 import type { Variant } from "./scenario";
+import { facilitatorOrigin } from "./sessionControl";
 export type StudyRecord = {
   at: string;
   scenarioTime: number;
@@ -18,6 +19,11 @@ type State = {
   selected: string;
   tab: string;
   records: StudyRecord[];
+  participant: string;
+  sessionId: string;
+  facilitatorOrigin: string | null;
+  releasedTime: number;
+  release: (time: number) => void;
   set: (patch: Partial<Pick<State, "time" | "selected" | "tab">>) => void;
   log: (type: string, value: string) => void;
 };
@@ -35,6 +41,7 @@ const condition: Condition =
       : "C";
 const variant: Variant =
   params.get("variant") === "canonical" ? "canonical" : "primary";
+const controllerOrigin = facilitatorOrigin(params.get("facilitatorOrigin"));
 export const useMission = create<State>((set, get) => ({
   role,
   condition,
@@ -43,7 +50,18 @@ export const useMission = create<State>((set, get) => ({
   selected: "S1",
   tab: "science",
   records: [],
+  participant: (params.get("participant") ?? "").slice(0, 80),
+  sessionId: params.get("session")?.slice(0, 80) || crypto.randomUUID(),
+  facilitatorOrigin: controllerOrigin,
+  releasedTime: controllerOrigin ? initialTime : 905,
+  release: (time) => {
+    if (!Number.isInteger(time) || time < 840 || time > 905) return;
+    set({ releasedTime: Math.max(get().releasedTime, time), time });
+    get().log("facilitator-time", String(time));
+  },
   set: (patch) => {
+    if (patch.time !== undefined && (!Number.isInteger(patch.time)
+      || patch.time < 840 || patch.time > get().releasedTime)) return;
     set(patch);
     get().log("interaction", JSON.stringify(patch));
   },

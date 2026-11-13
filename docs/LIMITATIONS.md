@@ -10,3 +10,13 @@
 - The separate facilitator directory keeps answer keys out of the production participant build. Static client code still contains deterministic scenario fixtures. This prevents accidental UI/export disclosure, not deliberate source-code inspection. Use supervised production sessions, never an exposed Vite development server.
 - The browser map needs WebGL; attributed raster/source fallback and the schematic remain available when initialization fails. External source links need network; scenario and map assets run offline once the local server is running.
 - No human testing completed. The research hypothesis is unproven. Repeated scenarios can teach answers; counterbalancing and first-exposure analysis are necessary. Accessibility includes labels, keyboard controls, visible focus and responsive layout; no full assistive-technology certification is claimed.
+
+## Current review limits (2026-11-12)
+
+- Browser startup is blocked here by `PermissionError: [Errno 1] Operation not permitted` when binding a local HTTP server. The browser also found no running app at localhost:5173. New map loading, responsive layout and cross-window phase controls still need a real browser run.
+- `python3 -m pytest -q` cannot run because pytest is absent. A project virtual environment was created, but installing the pinned dependencies failed at PyPI DNS resolution. Reprojection and byte-identical raster reproduction were not rerun.
+- USGS original publication/PDF/GIS URLs returned HTTP 403 during this review. Its accessible official companion page and retained source documents were inspected; the GIS archive was not downloaded again.
+- Source projection and angular alignment checks pass in the real MapLibre implementation; those checks do not establish ground truth, traversability or physical distances.
+- Participant notes are held in memory. Export before reload/close. The notebook’s unsaved draft and timer reset if its panel unmounts; finish/save a response before switching tabs.
+- A closed/reloaded facilitator tab cannot recover control of an existing child session. Start a fresh session after exporting. Future phases are UI-controlled, not secret from an adversarial user.
+- The JavaScript bundle remains large; Vite's size warning is retained. No performance or assistive-technology certification is claimed.

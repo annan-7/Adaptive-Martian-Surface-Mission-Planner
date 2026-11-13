@@ -25,8 +25,10 @@
     ],
     "additionalUrls": [
       "https://pubs.usgs.gov/sim/3464/sim3464_pamphlet.pdf",
-      "https://pubs.usgs.gov/sim/3464/sim3464_database.zip"
-    ]
+      "https://pubs.usgs.gov/sim/3464/sim3464_database.zip",
+      "https://www.usgs.gov/maps/geologic-map-jezero-crater-and-nili-planum-region-mars"
+    ],
+    "verificationNote": "2026-11-12: inspected official USGS companion publication page and retained GIS readme, metadata and pamphlet text. Original pubs.usgs.gov page, PDF and metadata requests returned HTTP 403; archive not re-downloaded. Original asset verification date retained."
   },
   {
     "id": "NASA-JEZERO-2021",
@@ -34,8 +36,8 @@
     "institution": "NASA / JPL",
     "title": "NASA’s Perseverance Sheds More Light on Jezero Crater’s Watery Past",
     "url": "https://www.nasa.gov/solar-system/nasas-perseverance-sheds-more-light-on-jezero-craters-watery-past/",
-    "accessed": "2026-11-11",
-    "locator": "“Perseverance’s Kodiak Moment” and “The Big Picture” sections; scarp mosaic caption",
+    "accessed": "2026-11-12",
+    "locator": "“Perseverance’s Kodiak Moment” and “Moving Boulders” sections; April 17 scarp mosaic caption",
     "instrument": "Mastcam-Z and SuperCam Remote Micro-Imager (RMI)",
     "acquisitionDate": "2021-04-17 for the scarp mosaic caption only; not a universal acquisition date",
     "claims": [
@@ -46,7 +48,8 @@
     "caveat": "NASA report of research, not an independently reproduced sedimentological analysis. No claim of biosignature detection, accessible samples, or EVA reachability.",
     "files": [
       "data/evidence/nasa-jezero-2021.txt"
-    ]
+    ],
+    "verificationNote": "Page reopened and relevant passages inspected during this review."
   },
   {
     "id": "NASA-DELTA-IMAGE",
@@ -54,7 +57,7 @@
     "institution": "NASA",
     "title": "Perseverance View of the Delta in Jezero Crater",
     "url": "https://science.nasa.gov/resource/perseverance-view-of-the-delta-in-jezero-crater/",
-    "accessed": "2026-11-11",
+    "accessed": "2026-11-12",
     "locator": "Image description",
     "instrument": "Mastcam-Z",
     "acquisitionDate": "2021-02-22",
@@ -65,7 +68,8 @@
     "caveat": "Surface perspective image is not a georeferenced orbital map.",
     "files": [
       "data/evidence/nasa-delta-image.txt"
-    ]
+    ],
+    "verificationNote": "Page reopened and relevant passages inspected during this review."
   },
   {
     "id": "JPL-KODIAK-IMAGE",
